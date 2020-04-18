@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Gallery from "../components/gallery"
 import Spinner from 'react-bootstrap/Spinner'
-
+import GooglePhotos from "../../static/images/google-photos.svg"
 
 const PhotoGallery = () => (
   <Layout pageInfo={{ pageName: "Photo Gallery" }}>
@@ -15,7 +15,7 @@ const PhotoGallery = () => (
     <br></br>
       <a href="https://photos.app.goo.gl/JftTj3VzsgyPqJQUA">
         <Button variant="outline-dark" size="lg" block>
-          Open in Google Photos
+          Open with<img class= "img-fluid lazy" src={GooglePhotos} alt="Google Photos"></img>
         </Button>
       </a>
       <hr>

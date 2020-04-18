@@ -12,7 +12,7 @@ const SecondPage = () => (
     <Card.Img variant="top" src="./banner.png" />
     <Card.Body>
       <Card.Text>
-      <h5>
+      <h6>
       <blockquote>
         <p class="has-line-data" data-line-start="0" data-line-end="1">
           <strong>Bhupendra Narayan Mandal University</strong> also called B. N.
@@ -23,7 +23,7 @@ const SecondPage = () => (
           teaching.
         </p>
       </blockquote>
-      </h5>
+      </h6>
       </Card.Text>
     </Card.Body>
   </Card>
@@ -34,16 +34,22 @@ const SecondPage = () => (
     <Card.Img variant="top" src={FlagImg} />
     <Card.Body>
       <Card.Text>
-    <h5>
+    <h6>
       <blockquote>
-        <p class="has-line-data" data-line-start="2" data-line-end="3">
+        <p>
           <strong>The Department of Chemistry</strong> is one of those in few
           Departments, which were established soon after the inception of the
-          B.N.M University in 1992. Over the period, the Department has been
+          B.N.M University in 1992. <br />
+          </p>
+          <p>
+          Over the period, the Department has been
           nurtured under the able guidance of the eminent educationist/chemists
-          like Prof.Ram Badan Yadav, (former VC, BNMU) Prof.R K Choudhary(former
-          VC, BNMU), Prof.Q Ashan(former VC, BNMU), Prof. B. N. Prasad, to name
-          a few. The present faculty members are actively engaged, besides their
+          like Prof. Ram Badan Yadav (former VC, BNMU), Prof. R. K. Choudhary (former
+          VC, BNMU), Prof. Q Ashan (former VC, BNMU), Prof. B. N. Prasad, to name
+          a few. <br />
+          </p>
+          <p>
+          The present faculty members are actively engaged, besides their
           teaching program, in pursuing research in frontier areas of chemistry.
           As a result, during the last decade, nearly 75 students were awarded
           Ph.D. degree and around 250 research papers were published from this
@@ -58,7 +64,7 @@ const SecondPage = () => (
           Compounds, and Medicinal Chemistry.
         </p>
       </blockquote>
-    </h5>
+    </h6>
       </Card.Text>
     </Card.Body>
   </Card>
