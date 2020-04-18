@@ -16,13 +16,13 @@ const IndexPage = () => (
     <Container>
       <Carousel>
         <Carousel.Item>
-          <img class="img-fluid" src={BNMU16} alt="" />
+          <img class="img-fluid lazy" src={BNMU16} alt="" />
         </Carousel.Item>
         <Carousel.Item>
-          <img class="img-fluid" src={BNMU36} alt="" />
+          <img class="img-fluid lazy" src={BNMU36} alt="" />
         </Carousel.Item>
         <Carousel.Item>
-          <img class="img-fluid" src={BNMU14} alt="" />
+          <img class="img-fluid lazy" src={BNMU14} alt="" />
         </Carousel.Item>
       </Carousel>
     </Container>

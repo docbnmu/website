@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <Layout pageInfo={{ pageName: "About" }}>
     <SEO title="About" />
-    <h4>
+    <h5>
       <blockquote>
         <p class="has-line-data" data-line-start="0" data-line-end="1">
           <strong>Bhupendra Narayan Mandal University</strong> also called B. N.
@@ -40,7 +40,7 @@ const SecondPage = () => (
           Compounds, and Medicinal Chemistry.
         </p>
       </blockquote>
-    </h4>
+    </h5>
     <br></br>
   </Layout>
 )

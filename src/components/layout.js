@@ -47,7 +47,7 @@ const Layout = ({ children, pageInfo }) => (
               <footer>
                 <span>
                   University's website:{" "}
-                  <a href="http://bnmu.ac.in">bnmu.ac.in</a>
+                  bnmu.ac.in
                   {` `}
                   &#9679;
                   {` `}

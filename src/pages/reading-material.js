@@ -101,7 +101,8 @@ const ReadingMaterial = () => (
         </Card>
       </Accordion>
     </div>
-  
+    <hr></hr>
+    <br></br>
   </Layout>
 )
 

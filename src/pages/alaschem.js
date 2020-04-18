@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const ALASCHEM = () => (
   <Layout pageInfo={{ pageName: "Alumni Association of Chemistry" }}>
     <SEO title="Alumni Association of Chemistry" />
-    <h4>
+    <h5>
       <p class="has-line-data" data-line-start="1" data-line-end="2">
         <strong>About of ALASCHEM</strong>
       </p>
@@ -139,7 +139,7 @@ const ALASCHEM = () => (
           </Button>
         </a>
       </p>
-    </h4>
+    </h5>
     <hr></hr>
     <br></br>
   </Layout>

@@ -13,7 +13,7 @@ const CustomNavbar = ({ pageInfo }) => {
         <div class="container">
           <Link to="/" className="link-no-style">
             <Navbar.Brand as="span">
-              <img src={logo} width="30" height="30" alt="&#8962;"></img>
+              <img class= "img-fluid lazy" src={logo} width="40" height="40" alt="&#8962;"></img>
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
