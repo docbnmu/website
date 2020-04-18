@@ -1,9 +1,17 @@
+require(`dotenv`).config({
+  path: `.env`,
+})
+
 module.exports = {
   pathPrefix: "/",
   siteMetadata: {
     title: `University Department of Chemistry`,
     description: `University Department of Chemistry, B. N. Mandal University, Madhepura (Bihar).`,
     author: `docbnmu.in`,
+    siteUrl: `https://docbnmu.in`,
+    siteDescription: `Bhupendra Narayan Mandal University is at the district headquarters, Madhepura. It acts as an affiliating institution and offers undergraduate, graduate and PhD programs through its constituents, affiliated colleges, and institutes in Madhepura and nearby cities.`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -31,6 +39,12 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
