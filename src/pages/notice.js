@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import Button from "react-bootstrap/Button"
 
 const Notice = () => (
-  <Layout>
+  <Layout pageInfo={{ pageName: "Notice" }}>
     <SEO title="Notice" />
     <h1>Notice.</h1>
     <hr></hr>

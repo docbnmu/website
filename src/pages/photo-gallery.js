@@ -6,7 +6,7 @@ import Gallery from "../components/gallery"
 
 
 const PhotoGallery = () => (
-  <Layout>
+  <Layout pageInfo={{ pageName: "Photo Gallery" }}>
     <SEO title="Photo Gallery" />
     <h1>Photo Gallery</h1>
     <hr>
