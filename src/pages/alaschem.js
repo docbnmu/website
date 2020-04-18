@@ -133,7 +133,7 @@ const ALASCHEM = () => (
         <strong>Downloads</strong>
       </p>
       <p class="has-line-data" data-line-start="39" data-line-end="40">
-        <a href="https://docbnmu.in/documents/Alumni.Association.of.Chemistry.Receipt.Voucher.pdf">
+        <a href="../documents/Alumni.Association.of.Chemistry.Receipt.Voucher.pdf">
           <Button variant="outline-dark" size="lg" block>
             Alumni Association of Chemistry Receipt Voucher
           </Button>
