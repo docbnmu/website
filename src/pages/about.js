@@ -1,11 +1,18 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Card from 'react-bootstrap/Card'
+import FlagImg from "../images/gallery/IMG_20190126_094521.jpg";
 
 const SecondPage = () => (
   <Layout pageInfo={{ pageName: "About" }}>
     <SEO title="About" />
-    <h5>
+  <div>
+    <Card>
+    <Card.Img variant="top" src="./banner.png" />
+    <Card.Body>
+      <Card.Text>
+      <h5>
       <blockquote>
         <p class="has-line-data" data-line-start="0" data-line-end="1">
           <strong>Bhupendra Narayan Mandal University</strong> also called B. N.
@@ -16,7 +23,18 @@ const SecondPage = () => (
           teaching.
         </p>
       </blockquote>
-      <br></br>
+      </h5>
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  </div>
+  <br />
+  <div>
+    <Card>
+    <Card.Img variant="top" src={FlagImg} />
+    <Card.Body>
+      <Card.Text>
+    <h5>
       <blockquote>
         <p class="has-line-data" data-line-start="2" data-line-end="3">
           <strong>The Department of Chemistry</strong> is one of those in few
@@ -41,6 +59,12 @@ const SecondPage = () => (
         </p>
       </blockquote>
     </h5>
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  </div>
+  <br />
+
     <br></br>
   </Layout>
 )

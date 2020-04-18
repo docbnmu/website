@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Gallery from "../components/gallery"
+import Spinner from 'react-bootstrap/Spinner'
 
 
 const PhotoGallery = () => (
@@ -19,6 +20,8 @@ const PhotoGallery = () => (
       </a>
       <hr>
     </hr>
+    <h6 align="center">Click on any image to preview. <Spinner animation="grow" size="sm"/></h6>
+    
     <br></br>
       <Gallery />
       <hr>
