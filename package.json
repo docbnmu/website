@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-react-bootstrap",
+  "name": "docbnmu",
   "private": true,
-  "description": "A starter that includes and configures react-bootstrap and react-icons, along with SASS handling. ",
+  "description": "",
   "version": "0.1.0",
-  "author": "Billy Jacoby <billyjacoby@gmail.com>",
+  "author": "",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gatsby": "^2.3.34",
@@ -24,7 +24,9 @@
     "react-icons": "^3.6.1"
   },
   "devDependencies": {
+    "@material-ui/core": "^4.9.10",
     "gh-pages": "^2.0.1",
+    "lightbox-react": "^0.3.7",
     "prettier": "^1.17.0"
   },
   "keywords": [
@@ -41,11 +43,11 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "type": "",
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": ""
   },
-  "homepage": "https://billyjacoby.github.io/gatsby-react-bootstrap-starter/"
+  "homepage": ""
 }

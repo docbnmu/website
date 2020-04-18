@@ -46,7 +46,8 @@ const Layout = ({ children, pageInfo }) => (
             <Col className="footer-col">
               <footer>
                 <span>
-                  University's website: <a href="http://bnmu.ac.in">bnmu.ac.in</a>
+                  University's website:{" "}
+                  <a href="http://bnmu.ac.in">bnmu.ac.in</a>
                   {` `}
                   &#9679;
                   {` `}
