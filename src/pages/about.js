@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Card from 'react-bootstrap/Card'
-import FlagImg from "../images/gallery/IMG_20190126_094521.jpg";
+import FlagImg from "../images/gallery/Chem.BNMU22.jpg";
 
 const SecondPage = () => (
   <Layout pageInfo={{ pageName: "About" }}>

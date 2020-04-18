@@ -30,8 +30,8 @@ const GalleryComponent = props => {
             edges {
               node {
                 childImageSharp {
-                  fluid(maxHeight: 500) {
-                    ...GatsbyImageSharpFluid
+                  fluid(maxHeight: 600) {
+                    ...GatsbyImageSharpFluid_noBase64
                     presentationWidth
                   }
                 }
@@ -43,7 +43,7 @@ const GalleryComponent = props => {
       render={data => {
         const images = data.source.edges
         return (
-          <Grid container spacing={24} justify="center">
+          <Grid container spacing={1} justify="center">
             <ThumbGrid images={images} handleOpen={handleOpen} />
             {showLightbox && selectedImage !== null && (
               <LightBox

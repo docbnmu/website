@@ -5,9 +5,9 @@ import { Container } from "react-bootstrap"
 import Carousel from "react-bootstrap/Carousel"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import BNMU36 from "../../static/images/Chem.BNMU36.jpg.webp"
-import BNMU16 from "../../static/images/Chem.BNMU16.jpg.webp"
-import BNMU14 from "../../static/images/Chem.BNMU14.jpg.webp"
+import ImgA from "../images/gallery/Chem.BNMU14.jpg"
+import ImgB from "../images/gallery/Chem.BNMU55.jpg"
+import ImgC from "../images/gallery/Chem.BNMU36.jpg"
 
 const IndexPage = () => (
   <Layout pageInfo={{ pageName: "Home" }}>
@@ -18,13 +18,13 @@ const IndexPage = () => (
     <Container>
       <Carousel>
         <Carousel.Item>
-          <img class="img-fluid lazy" src={BNMU16} alt="" />
+          <img src={ImgA} class="img-fluid lazy" alt="" />
         </Carousel.Item>
         <Carousel.Item>
-          <img class="img-fluid lazy" src={BNMU36} alt="" />
+          <img class="img-fluid lazy" src={ImgB} alt="" />
         </Carousel.Item>
         <Carousel.Item>
-          <img class="img-fluid lazy" src={BNMU14} alt="" />
+          <img class="img-fluid lazy" src={ImgC} alt="" />
         </Carousel.Item>
       </Carousel>
     </Container>
@@ -84,5 +84,4 @@ const IndexPage = () => (
     <hr></hr>
   </Layout>
 )
-
 export default IndexPage
