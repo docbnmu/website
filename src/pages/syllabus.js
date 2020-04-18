@@ -76,6 +76,8 @@ const Syllabus = () => (
         </Card>
       </Accordion>
     </div>
+    <hr></hr>
+    <br></br><br></br>
   </Layout>
 )
 

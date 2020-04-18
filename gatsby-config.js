@@ -66,6 +66,12 @@ module.exports = {
         // whitelist: ['whitelist'], // Don't remove this selector
         ignore: ['src/pages/'], // Ignore files/folders
         purgeOnly : ['components/', '/main.css', 'node_modules/bootstrap'], // Purge only these files/folders
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-zopfli',
+      options: {
+        extensions: ['css', 'html', 'js', 'svg']
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
