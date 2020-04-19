@@ -20,10 +20,78 @@ const ReadingMaterial = () => (
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="0">
           <Card.Body>
+          <p>
+<a href="../documents/reading-material/Enviromental.Ethics.pdf">
+<Button variant="outline-dark">
+Enviromental Ethics  <Badge variant="secondary">PDF</Badge>
+</Button>
+</a>
+{'   '}
+<a href="../documents/reading-material/Enviromental.Ethics.pptx">
+<Button variant="outline-dark">
+Enviromental Ethics  <Badge variant="secondary">PPTX</Badge>
+</Button>
+</a>
+</p>
+<hr></hr>
+
+<p><a href="../documents/reading-material/IR.Spectroscopy.pdf">
+<Button variant="outline-dark">
+IR Spectroscopy  <Badge variant="secondary">PDF</Badge>
+</Button>
+</a>
+</p>
+<hr></hr>
+<p><a href="../documents/reading-material/Reaction.Mechanism.Oh.Complex.pdf">
+<Button variant="outline-dark">
+Reaction mechanism of Octahedral complex compound  <Badge variant="secondary">PDF</Badge>
+</Button>
+</a>
+</p>
+<hr></hr>
+<p><a href="../documents/reading-material/Poly.Acid.pdf">
+<Button variant="outline-dark">
+Iso Poly Anion & Hetero Poly Anion  <Badge variant="secondary">PDF</Badge>
+</Button>
+</a>
+</p>
+<hr></hr>
+
+<p><a href="../documents/reading-material/NMR.Spectroscopy.pdf">
+<Button variant="outline-dark">
+NMR Spectroscopy  <Badge variant="secondary">PDF</Badge>
+</Button>
+</a>
+</p>
+<hr></hr>
+<p><a href="../documents/reading-material/Mass.Spectroscopy.pdf">
+<Button variant="outline-dark">
+    Mass Spectroscopy  <Badge variant="secondary">PDF</Badge>
+</Button>
+</a>
+</p>
+<hr></hr>
+<p><a href="../documents/reading-material/Mass.Spectroscopy.II.pdf">
+<Button variant="outline-dark">
+Mass Spectroscopy II  <Badge variant="secondary">PDF</Badge>
+</Button>
+</a>
+</p>
+<hr></hr>
+
+
+<p><a href="../documents/reading-material/UV.Spectroscopy.pdf">
+<Button variant="outline-dark">
+UV Spectroscopy  <Badge variant="secondary">PDF</Badge>
+</Button>
+</a>
+</p>
+<hr></hr>
+
               <p>
                 <a href="../documents/Core.Paper.MOT.Question.Bank.pdf">
                   <Button variant="outline-dark">
-                  Core Paper MOT Question Bank <Badge variant="secondary">PDF</Badge>
+                  Core Paper MOT Question Bank   <Badge variant="secondary">PDF</Badge>
                   </Button>
                 </a>
               </p>
@@ -31,7 +99,7 @@ const ReadingMaterial = () => (
               <p>
                 <a href="../documents/Core.Paper.X-Ray.Technique.pdf">
                   <Button variant="outline-dark">
-                  Core Paper X-Ray Technique <Badge variant="secondary">PDF</Badge>
+                  Core Paper X-Ray Technique   <Badge variant="secondary">PDF</Badge>
                   </Button>
                 </a>
               </p>
@@ -39,7 +107,7 @@ const ReadingMaterial = () => (
               <p>
                 <a href="../documents/Research.Methodology.Lecture.Note.pdf">
                   <Button variant="outline-dark">
-                  Research Methodology Lecture Note <Badge variant="secondary">PDF</Badge>
+                  Research Methodology Lecture Note   <Badge variant="secondary">PDF</Badge>
                   </Button>
                 </a>
               </p>
@@ -58,7 +126,22 @@ const ReadingMaterial = () => (
             Semester I
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="1">
-            <Card.Body>Hello!</Card.Body>
+            <Card.Body>
+            <p><a href="../documents/reading-material/Vilsmeir.Reaction.pdf">
+<Button variant="outline-dark">
+Vilsmeir reaction  <Badge variant="secondary">PDF</Badge>
+</Button>
+</a>
+</p>
+<hr></hr>
+<p><a href="../documents/reading-material/Gattermann-Koch.Reaction.pdf">
+<Button variant="outline-dark">
+Gattermann-Koch Reaction  <Badge variant="secondary">PDF</Badge>
+</Button>
+</a>
+</p>
+<hr></hr>
+            </Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card>
@@ -82,7 +165,15 @@ const ReadingMaterial = () => (
             Semester IV
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="4">
-            <Card.Body>Hello! </Card.Body>
+            <Card.Body>
+            <p><a href="../documents/reading-material/Terpenoids.pdf">
+<Button variant="outline-dark">
+Terpenoids  <Badge variant="secondary">PDF</Badge>
+</Button>
+</a>
+</p>
+<hr></hr>
+            </Card.Body>
           </Accordion.Collapse>
         </Card>
       </Accordion>
@@ -94,10 +185,18 @@ const ReadingMaterial = () => (
       <Accordion defaultActiveKey="5">
         <Card>
           <Accordion.Toggle as={Card.Header} eventKey="5">
-            Ph.D.
+            Ph.D. coursework
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="5">
-            <Card.Body>Hello!</Card.Body>
+            <Card.Body>
+            <p><a href="../documents/reading-material/Research.Hypothesis.pdf">
+<Button variant="outline-dark">
+Research Hypothesis  <Badge variant="secondary">PDF</Badge>
+</Button>
+</a>
+</p>
+<hr></hr>
+            </Card.Body>
           </Accordion.Collapse>
         </Card>
       </Accordion>
