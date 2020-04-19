@@ -5,9 +5,9 @@ import { Container } from "react-bootstrap"
 import Carousel from "react-bootstrap/Carousel"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ImgA from "../images/gallery/Chem.BNMU14.jpg"
-import ImgB from "../images/gallery/Chem.BNMU55.jpg"
-import ImgC from "../images/gallery/Chem.BNMU36.jpg"
+import ImgA from "../images/gallery/Chem.BNMU14@2x.jpg"
+import ImgB from "../images/gallery/Chem.BNMU55@2x.jpg"
+import ImgC from "../images/gallery/Chem.BNMU36@2x.jpg"
 
 const IndexPage = () => (
   <Layout pageInfo={{ pageName: "Home" }}>
