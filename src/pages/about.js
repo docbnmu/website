@@ -2,14 +2,15 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Card from 'react-bootstrap/Card'
-import FlagImg from "../images/gallery/Chem.BNMU22.jpg";
+import FlagImg from "../images/gallery/Chem.BNMU23.jpg";
+import BannerImg from "../../static/banner.jpg"
 
 const SecondPage = () => (
   <Layout pageInfo={{ pageName: "About" }}>
     <SEO title="About" />
   <div>
     <Card>
-    <Card.Img variant="top" src="./banner.png" />
+    <Card.Img variant="top" src={FlagImg} />
     <Card.Body>
       <Card.Text>
       <h6>
@@ -31,7 +32,7 @@ const SecondPage = () => (
   <br />
   <div>
     <Card>
-    <Card.Img variant="top" src={FlagImg} />
+    <Card.Img variant="top" src={BannerImg} />
     <Card.Body>
       <Card.Text>
     <h6>
