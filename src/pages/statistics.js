@@ -24,7 +24,7 @@ const Statistics = () => (
       (A) Post Sanctioned – Post Sanctioned by Bihar Govt. vide letter No.{" "}
       <code>15/G 1-08/98-210 dated 31-01-2000</code>.
     </p>
-    <Table class="responsive">
+    <Table striped bordered hover responsive>
       <thead>
         <tr>
           <th>Professor</th>
@@ -44,7 +44,7 @@ const Statistics = () => (
       (B) Present Position of Teachers- Promotion of all teachers are under
       CAS/MPS/TBP &amp; are personal promotion.
     </p>
-    <Table>
+    <Table striped bordered hover responsive>
       <thead>
         <tr>
           <th>Professor</th>
@@ -78,7 +78,7 @@ const Statistics = () => (
       <strong>Success rate of Students in M.Sc. Final</strong>
     </h2>
     <blockquote></blockquote>
-    <Table>
+    <Table striped bordered hover responsive>
       <col width="20%" />
       <col width="20%" />
       <col width="20%" />
@@ -196,7 +196,7 @@ const Statistics = () => (
       <strong>Distinction/Ranks</strong>
     </h2>
     <blockquote></blockquote>
-    <Table>
+    <Table striped bordered hover responsive>
       <col width="20%" />
       <col width="20%" />
       <col width="20%" />
@@ -315,7 +315,7 @@ const Statistics = () => (
       <strong>Details of Publication (Last five years)</strong>
     </h2>
     <blockquote></blockquote>
-    <Table>
+    <Table striped bordered hover responsive>
       <col width="25%" />
       <col width="25%" />
       <col width="25%" />
@@ -449,7 +449,7 @@ const Statistics = () => (
       </strong>
     </h2>
     <blockquote></blockquote>
-    <Table>
+    <Table striped bordered hover responsive>
       <col width="20%" />
       <col width="20%" />
       <col width="20%" />
@@ -607,7 +607,7 @@ const Statistics = () => (
       </strong>
     </h2>
     <blockquote></blockquote>
-    <Table>
+    <Table striped bordered hover responsive>
       <col width="20%" />
       <col width="20%" />
       <col width="20%" />
@@ -766,7 +766,7 @@ const Statistics = () => (
       <strong>Number of Ph. D Thesis guided during the Last 5 Years.</strong>
     </h2>
     <blockquote></blockquote>
-    <Table>
+    <Table striped bordered hover responsive>
       <col width="50%" />
       <col width="50%" />
       <tbody>

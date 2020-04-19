@@ -12,7 +12,7 @@ const Faculty = () => (
   <Layout pageInfo={{ pageName: "Faculty" }}>
     <SEO title="Faculty" />
     <div>
-      <Table class="table bordered hover responsive">
+      <Table striped bordered hover responsive>
         <thead>
           <tr>
             <th>
@@ -77,7 +77,7 @@ const Faculty = () => (
     <h3>Former HoDs</h3>
 
     <div>
-      <Table>
+      <Table striped bordered hover responsive>
         <thead>
           <tr>
             <th>Former HODs</th>

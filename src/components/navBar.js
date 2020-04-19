@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import logo from "../../static/logo-opt.svg"
 
-import { Navbar, Nav } from "react-bootstrap"
+import { Navbar, Nav, Button } from "react-bootstrap"
 
 const CustomNavbar = ({ pageInfo }) => {
   console.log(pageInfo)
@@ -17,69 +17,69 @@ const CustomNavbar = ({ pageInfo }) => {
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse className="justify-content-center" id="basic-navbar-nav">
             <Nav className="mr-auto" activeKey={pageInfo && pageInfo.pageName}>
               <Link to="/about">
                 <Nav.Link as="span" eventKey="about">
-                  <button type="button" class="btn btn-dark">
+                  <Button variant="secondary" active>
                     About
-                  </button>
+                  </Button>
                 </Nav.Link>
               </Link>
               <Link to="/alaschem">
                 <Nav.Link as="span" eventKey="ALASCHEM">
-                  <button type="button" class="btn btn-dark">
+                  <Button variant="secondary" active>
                     ALASCHEM
-                  </button>
+                  </Button>
                 </Nav.Link>
               </Link>
               <Link to="/faculty">
                 <Nav.Link as="span" eventKey="Faculty">
-                  <button type="button" class="btn btn-dark">
+                  <Button variant="secondary" active>
                     Faculty
-                  </button>
+                  </Button>
                 </Nav.Link>
               </Link>
               <Link to="/statistics">
                 <Nav.Link as="span" eventKey="Statistics">
-                  <button type="button" class="btn btn-dark">
+                  <Button variant="secondary" active>
                     Statistics
-                  </button>
+                  </Button>
                 </Nav.Link>
               </Link>
               <Link to="/syllabus">
                 <Nav.Link as="span" eventKey="Syllabus">
-                  <button type="button" class="btn btn-dark">
+                  <Button variant="secondary" active>
                     Syllabus
-                  </button>
+                  </Button>
                 </Nav.Link>
               </Link>
               <Link to="/NAAC">
                 <Nav.Link as="span" eventKey="NAAC">
-                  <button type="button" class="btn btn-dark">
+                  <Button variant="secondary" active>
                     NAAC
-                  </button>
+                  </Button>
                 </Nav.Link>
               </Link>
               <Link to="/reading-material">
                 <Nav.Link as="span" eventKey="ReadingMaterial">
-                  <button type="button" class="btn btn-dark">
+                  <Button variant="secondary" active>
                     Reading Material
-                  </button>
+                  </Button>
                 </Nav.Link>
               </Link>
               <Link to="/photo-gallery">
                 <Nav.Link as="span" eventKey="PhotoGallery">
-                  <button type="button" class="btn btn-dark">
+                  <Button variant="secondary" active>
                     Photo Gallery
-                  </button>
+                  </Button>
                 </Nav.Link>
               </Link>
               <Link to="/notice">
                 <Nav.Link as="span" eventKey="Notice">
-                  <button type="button" class="btn btn-dark">
+                  <Button variant="secondary" active>
                     Notice
-                  </button>
+                  </Button>
                 </Nav.Link>
               </Link>
             </Nav>
