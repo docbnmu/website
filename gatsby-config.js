@@ -3,14 +3,14 @@ require(`dotenv`).config({
 })
 
 module.exports = {
-  //pathPrefix: `/chem/`,
-  //assetPrefix: ``,
+  //pathPrefix: `/website/`,
+  //assetPrefix: `https://docbnmu.github.io/website/`,
   siteMetadata: {
     title: `University Department of Chemistry`,
     description: `University Department of Chemistry, B. N. Mandal University, Madhepura (Bihar).`,
     author: `docbnmu.in`,
     siteUrl: `https://docbnmu.in`,
-    siteDescription: `Bhupendra Narayan Mandal University is at the district headquarters, Madhepura. It acts as an affiliating institution and offers undergraduate, graduate and PhD programs through its constituents, affiliated colleges, and institutes in Madhepura and nearby cities.`,
+    siteDescription: `Bhupendra Narayan Mandal University also called B. N. Mandal University and in short BNMU is situated at the district headquarter, Madhepura a district in Bihar. It is known for adding glory to the educational atmosphere of this district and it’s surrounding. It is a regional university famous for its quality teaching.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
   },

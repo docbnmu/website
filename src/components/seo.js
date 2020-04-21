@@ -48,12 +48,12 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: metaDescription,
         },
         {
-          property: `og:type`,
-          content: `website`,
+          property: `og:image`,
+          content: `https://docbnmu.in/banner.png`,
         },
         {
-          name: `twitter:card`,
-          content: `summary`,
+          name: `twitter:image`,
+          content: `https://docbnmu.in/banner.png`,
         },
         {
           name: `twitter:creator`,
@@ -85,7 +85,7 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   keywords: [],
-  description: ``,
+  description: `Bhupendra Narayan Mandal University also called B. N. Mandal University and in short BNMU is situated at the district headquarter, Madhepura a district in Bihar. It is known for adding glory to the educational atmosphere of this district and it’s surrounding. It is a regional university famous for its quality teaching.`,
 }
 
 SEO.propTypes = {
