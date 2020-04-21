@@ -47,7 +47,6 @@ const Layout = ({ children, pageInfo, data }) => (
         <Container fluid className="px-0">
           <Row noGutters>
             <Col className="footer-col justify-content-center">
-            <div class="fluid bg-transparent text-dark">Last updated: {data.currentBuildDate.currentDate}.</div>
             <footer>
               <span>
                 <h5>University's website: bnmu.ac.in &bull; Laloo Nagar, Madhepura (852113) Bihar.</h5>
