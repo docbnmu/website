@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 
-
 const Date = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -11,9 +10,7 @@ const Date = () => {
     }
   `)
 
-  return (
-    <h6>Last updated: {data.currentBuildDate.currentDate}</h6>
-  )
+  return <h6>Last updated: {data.currentBuildDate.currentDate}</h6>
 }
 
 export default Date

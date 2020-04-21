@@ -13,11 +13,20 @@ const CustomNavbar = ({ pageInfo }) => {
         <div class="container">
           <Link to="/" className="link-no-style">
             <Navbar.Brand as="span">
-              <img class= "img-fluid lazy" src={logo} width="40" height="40" alt="&#8962;"></img>
+              <img
+                class="img-fluid lazy"
+                src={logo}
+                width="40"
+                height="40"
+                alt="&#8962;"
+              ></img>
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse className="justify-content-center" id="basic-navbar-nav">
+          <Navbar.Collapse
+            className="justify-content-center"
+            id="basic-navbar-nav"
+          >
             <Nav className="mr-auto" activeKey={pageInfo && pageInfo.pageName}>
               <Link to="/about">
                 <Nav.Link as="span" eventKey="about">

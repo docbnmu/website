@@ -20,30 +20,29 @@ const IndexPage = () => (
     <Container>
       <Carousel>
         <Carousel.Item>
-        <picture>
-    <source media="(max-width: 600px)" srcset={ImgA} />
-    <source media="(min-width: 601px)" srcset={ImgAb} />
-    <img class="img-fluid lazy" src={ImgAb} alt="" />
-    </picture>
+          <picture>
+            <source media="(max-width: 600px)" srcset={ImgA} />
+            <source media="(min-width: 601px)" srcset={ImgAb} />
+            <img class="img-fluid lazy" src={ImgAb} alt="" />
+          </picture>
         </Carousel.Item>
         <Carousel.Item>
-        <picture>
-    <source media="(max-width: 600px)" srcset={ImgB} />
-    <source media="(min-width: 601px)" srcset={ImgBb} />
-    <img class="img-fluid lazy" src={ImgBb} alt="" />
-    </picture>
+          <picture>
+            <source media="(max-width: 600px)" srcset={ImgB} />
+            <source media="(min-width: 601px)" srcset={ImgBb} />
+            <img class="img-fluid lazy" src={ImgBb} alt="" />
+          </picture>
         </Carousel.Item>
         <Carousel.Item>
-        <picture>
-    <source media="(max-width: 600px)" srcset={ImgC} />
-    <source media="(min-width: 601px)" srcset={ImgCb} />
-    <img class="img-fluid lazy" src={ImgCb} alt="" />
-    </picture>
+          <picture>
+            <source media="(max-width: 600px)" srcset={ImgC} />
+            <source media="(min-width: 601px)" srcset={ImgCb} />
+            <img class="img-fluid lazy" src={ImgCb} alt="" />
+          </picture>
         </Carousel.Item>
       </Carousel>
     </Container>
-    <hr>
-    </hr>
+    <hr></hr>
     <br></br>
     <br></br>
     <NoticeBoard />

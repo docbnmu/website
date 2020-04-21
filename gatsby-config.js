@@ -3,7 +3,8 @@ require(`dotenv`).config({
 })
 
 module.exports = {
-  pathPrefix: "/",
+  //pathPrefix: `/chem/`,
+  //assetPrefix: ``,
   siteMetadata: {
     title: `University Department of Chemistry`,
     description: `University Department of Chemistry, B. N. Mandal University, Madhepura (Bihar).`,

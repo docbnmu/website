@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button"
 import Date from "../components/date"
 
 const NoticeBoard = () => (
-    <>
+  <>
     <h1>Notice.</h1>
     <hr></hr>
     <br></br>
@@ -16,11 +16,14 @@ const NoticeBoard = () => (
         <p>Ph.D. - 03.03.2020</p>
         <hr />
         <p className="mb-0">
-          <a href="../documents/Admitted.Students.in.Ph.D.coursework.2019.pdf">
-            <Button variant="outline-dark" size="lg" block>
-              Download list
-            </Button>
-          </a>
+          <Button
+            variant="outline-dark"
+            size="lg"
+            block
+            href="../documents/Admitted.Students.in.Ph.D.coursework.2019.pdf"
+          >
+            Download list
+          </Button>
         </p>
       </Alert>
     </div>
@@ -57,7 +60,6 @@ const NoticeBoard = () => (
     <hr></hr>
     <br />
     <Date />
-    </>
+  </>
 )
 export default NoticeBoard
-  

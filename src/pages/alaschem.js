@@ -7,15 +7,17 @@ import Badge from "react-bootstrap/Badge"
 const ALASCHEM = () => (
   <Layout pageInfo={{ pageName: "Alumni Association of Chemistry" }}>
     <SEO title="Alumni Association of Chemistry" />
-   
-    
-      <p class="has-line-data" data-line-start="1" data-line-end="2">
-      <h4><strong>About of ALASCHEM</strong></h4>
-      </p>
-      <h5>
+
+    <p class="has-line-data" data-line-start="1" data-line-end="2">
+      <h4>
+        <strong>About of ALASCHEM</strong>
+      </h4>
+    </p>
+    <h5>
       <blockquote>
         <p class="has-line-data" data-line-start="3" data-line-end="4">
-          Alumni Association of Chemistry namely ALASCHEM, B. N. Mandal University is the reflection of its past, representation of its
+          Alumni Association of Chemistry namely ALASCHEM, B. N. Mandal
+          University is the reflection of its past, representation of its
           present and a link to its future.
         </p>
       </blockquote>
@@ -131,24 +133,30 @@ const ALASCHEM = () => (
           expand your professional network through this alumni-only environment
         </p>
       </blockquote>
-      </h5>
- 
-  <br />
- 
-      <p class="has-line-data" data-line-start="37" data-line-end="38">
-        <h4><strong>Downloads</strong></h4>
-      </p><h6>
+    </h5>
+
+    <br />
+
+    <p class="has-line-data" data-line-start="37" data-line-end="38">
+      <h4>
+        <strong>Downloads</strong>
+      </h4>
+    </p>
+    <h6>
       <p class="has-line-data" data-line-start="39" data-line-end="40">
-        <a href="../documents/Alumni.Association.of.Chemistry.Receipt.Voucher.pdf">
-          <Button variant="outline-dark" size="lg" block>
-            Alumni Association of Chemistry Receipt Voucher <Badge variant="secondary">PDF</Badge>
-          </Button>
-        </a>
+        <Button
+          variant="outline-dark"
+          size="lg"
+          block
+          href="../documents/Alumni.Association.of.Chemistry.Receipt.Voucher.pdf"
+        >
+          Alumni Association of Chemistry Receipt Voucher{" "}
+          <Badge variant="secondary">PDF</Badge>
+        </Button>
       </p>
     </h6>
     <hr></hr>
     <br></br>
-   
   </Layout>
 )
 export default ALASCHEM

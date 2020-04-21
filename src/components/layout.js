@@ -47,10 +47,13 @@ const Layout = ({ children, pageInfo, data }) => (
         <Container fluid className="px-0">
           <Row noGutters>
             <Col className="footer-col justify-content-center">
-            <footer>
-              <span>
-                <h5>University's website: bnmu.ac.in &bull; Laloo Nagar, Madhepura (852113) Bihar.</h5>
-              </span>
+              <footer>
+                <span>
+                  <h5>
+                    University's website: bnmu.ac.in &bull; Laloo Nagar,
+                    Madhepura (852113) Bihar.
+                  </h5>
+                </span>
               </footer>
             </Col>
           </Row>

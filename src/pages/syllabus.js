@@ -4,8 +4,8 @@ import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/Button"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Badge from 'react-bootstrap/Badge'
-
+import Badge from "react-bootstrap/Badge"
+import { Link } from "gatsby"
 
 const Syllabus = () => (
   <Layout pageInfo={{ pageName: "Syllabus" }}>
@@ -14,24 +14,26 @@ const Syllabus = () => (
       <Accordion defaultActiveKey="0">
         <Card>
           <Accordion.Toggle as={Card.Header} eventKey="0">
-            Post Graduate 
+            Post Graduate
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="0">
             <Card.Body>
               <p>
-                <a href="../documents/Syllabus.for.PG.Semester.19-11-15.pdf">
+                <Link to="documents/Syllabus.for.PG.Semester.19-11-15.pdf">
                   <Button variant="outline-dark">
-                    Syllabus for P.G. semester. <Badge variant="secondary">PDF</Badge>
+                    Syllabus for P.G. semester.{" "}
+                    <Badge variant="secondary">PDF</Badge>
                   </Button>
-                </a>
+                </Link>
               </p>
               <hr></hr>
               <p>
-                <a href="../documents/Final.Syllabus.CBCS.Revised.Chemistry.pdf">
+                <Link to="../documents/Final.Syllabus.CBCS.Revised.Chemistry.pdf">
                   <Button variant="outline-dark">
-                    CBCS-based syllabus for M.Sc. Chemistry <Badge variant="secondary">PDF</Badge>
+                    CBCS-based syllabus for M.Sc. Chemistry{" "}
+                    <Badge variant="secondary">PDF</Badge>
                   </Button>
-                </a>
+                </Link>
               </p>
             </Card.Body>
           </Accordion.Collapse>
@@ -43,19 +45,22 @@ const Syllabus = () => (
           <Accordion.Collapse eventKey="1">
             <Card.Body>
               <p>
-                <a href="../documents/Pre.Ph.D.Coursework.Syllabus.19-11-15.pdf">
+                <Link to="../documents/Pre.Ph.D.Coursework.Syllabus.19-11-15.pdf">
                   <Button variant="outline-dark">
-                    (2015) Pre Ph.D. coursework. <Badge variant="secondary">PDF</Badge>
+                    (2015) Pre Ph.D. coursework.{" "}
+                    <Badge variant="secondary">PDF</Badge>
                   </Button>
-                </a>
+                </Link>
               </p>
               <hr></hr>
               <p>
-                <a href="../documents/Pre.Ph.D.Coursework.Syllabus.Final.03.2020.pdf">
-                  <Button variant="outline-dark">
-                    (2020) Pre Ph.D. coursework. <Badge variant="secondary">PDF</Badge>{" "}
-                  </Button>
-                </a>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/Pre.Ph.D.Coursework.Syllabus.Final.03.2020.pdf"
+                >
+                  (2020) Pre Ph.D. coursework.{" "}
+                  <Badge variant="secondary">PDF</Badge>{" "}
+                </Button>
               </p>
             </Card.Body>
           </Accordion.Collapse>
@@ -66,12 +71,14 @@ const Syllabus = () => (
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="2">
             <Card.Body>
-              <p>           
-                <a href="../documents/Ph.D.First.Paper.Syllabus.pdf">
-                  <Button variant="outline-dark">
-                    Ph.D First Paper Syllabus. <Badge variant="secondary">PDF</Badge>{" "}
-                  </Button>
-                </a>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/Ph.D.First.Paper.Syllabus.pdf"
+                >
+                  Ph.D First Paper Syllabus.{" "}
+                  <Badge variant="secondary">PDF</Badge>{" "}
+                </Button>
               </p>
             </Card.Body>
           </Accordion.Collapse>
@@ -79,7 +86,8 @@ const Syllabus = () => (
       </Accordion>
     </div>
     <hr></hr>
-    <br></br><br></br>
+    <br></br>
+    <br></br>
   </Layout>
 )
 
