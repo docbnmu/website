@@ -53,6 +53,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-build-date`,
+      options: {
+        formatting: {
+          format: `dddd, MMM D, YYYY HH:mm:s Z`,
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `University Department of Chemistry`,

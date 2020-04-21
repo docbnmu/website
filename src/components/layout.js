@@ -13,10 +13,13 @@ import { Container, Row, Col } from "react-bootstrap"
 import Header from "./header"
 import Navbar from "./navBar"
 
-const Layout = ({ children, pageInfo }) => (
+const Layout = ({ children, pageInfo, data }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
+        currentBuildDate {
+          currentDate
+        }
         site {
           siteMetadata {
             title
@@ -43,16 +46,12 @@ const Layout = ({ children, pageInfo }) => (
         </Container>
         <Container fluid className="px-0">
           <Row noGutters>
-            <Col className="footer-col">
-              <footer>
-                <span>
-                  University's website:{" "}
-                  bnmu.ac.in
-                  {` `}
-                  &#9679;
-                  {` `}
-                  Laloo Nagar, Madhepura, Bihar 852113
-                </span>
+            <Col className="footer-col justify-content-center">
+            <div class="fluid bg-transparent text-dark">Last updated: {data.currentBuildDate.currentDate}.</div>
+            <footer>
+              <span>
+                <h5>University's website: bnmu.ac.in &bull; Laloo Nagar, Madhepura (852113) Bihar.</h5>
+              </span>
               </footer>
             </Col>
           </Row>

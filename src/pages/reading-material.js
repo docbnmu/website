@@ -5,6 +5,7 @@ import Button from "react-bootstrap/Button"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Badge from "react-bootstrap/Badge"
+import Date from "../components/date"
 
 const ReadingMaterial = () => (
   <Layout pageInfo={{ pageName: "Reading Material" }}>
@@ -215,6 +216,8 @@ Research Hypothesis  <Badge variant="secondary">PPTX</Badge>
     </div>
     <hr></hr>
     <br></br>
+    <Date />
+    <hr />
   </Layout>
 )
 

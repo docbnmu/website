@@ -8,6 +8,7 @@
     "bootstrap": "^4.3.1",
     "gatsby": "^2.3.34",
     "gatsby-image": "^2.0.41",
+    "gatsby-plugin-build-date": "^1.0.0",
     "gatsby-plugin-manifest": "^2.0.29",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.12",
@@ -37,6 +38,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "build:serve": "gatsby clean && gatsby build && gatsby serve",
     "build:path": "gatsby build --prefix-paths",
     "develop": "gatsby develop -H 0.0.0.0 -p 8000",
     "format": "prettier --write src/**/*.{js,jsx}",
