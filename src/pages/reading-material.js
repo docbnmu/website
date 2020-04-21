@@ -173,6 +173,13 @@ Terpenoids  <Badge variant="secondary">PDF</Badge>
 </a>
 </p>
 <hr></hr>
+<p><a href="../documents/reading-material/ETR.402.I.pdf">
+<Button variant="outline-dark">
+Electron Transfer Reaction in Oh Complexes <Badge variant="secondary">PDF</Badge>
+</Button>
+</a>
+</p>
+<hr></hr>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
