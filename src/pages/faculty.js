@@ -2,12 +2,12 @@ import React from "react"
 import Table from "react-bootstrap/Table"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import DrKK from "../../static/documents/DrKK.jpg"
-import DrAKY1 from "../../static/documents/DrAKY1.jpg"
-import DrAKY from "../../static/documents/DrAKY.jpg"
-import DrNK from "../../static/documents/DrNK.jpg"
-import DrMKG from "../../static/documents/DrMKG.jpg"
-import DrAK from "../../static/documents/DrAK.jpg"
+import DrKK from "../../static/documents/faculty/DrKK.jpg"
+import DrAKY1 from "../../static/documents/faculty/DrAKY1.jpg"
+import DrAKY from "../../static/documents/faculty/DrAKY.jpg"
+import DrNK from "../../static/documents/faculty/DrNK.jpg"
+import DrMKG from "../../static/documents/faculty/DrMKG.jpg"
+import DrAK from "../../static/documents/faculty/DrAK.jpg"
 const Faculty = () => (
   <Layout pageInfo={{ pageName: "Faculty" }}>
     <SEO title="Faculty" />

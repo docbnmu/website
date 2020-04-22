@@ -19,7 +19,7 @@ const Syllabus = () => (
           <Accordion.Collapse eventKey="0">
             <Card.Body>
               <p>
-                <Link to="documents/Syllabus.for.PG.Semester.19-11-15.pdf">
+                <Link to="../documents/syllabus/Syllabus.for.PG.Semester.19-11-15.pdf">
                   <Button variant="outline-dark">
                     Syllabus for P.G. semester.{" "}
                     <Badge variant="secondary">PDF</Badge>
@@ -28,7 +28,7 @@ const Syllabus = () => (
               </p>
               <hr></hr>
               <p>
-                <Link to="../documents/Final.Syllabus.CBCS.Revised.Chemistry.pdf">
+                <Link to="../documents/syllabus/Final.Syllabus.CBCS.Revised.Chemistry.pdf">
                   <Button variant="outline-dark">
                     CBCS-based syllabus for M.Sc. Chemistry{" "}
                     <Badge variant="secondary">PDF</Badge>
@@ -45,7 +45,7 @@ const Syllabus = () => (
           <Accordion.Collapse eventKey="1">
             <Card.Body>
               <p>
-                <Link to="../documents/Pre.Ph.D.Coursework.Syllabus.19-11-15.pdf">
+                <Link to="../documents/syllabus/Pre.Ph.D.Coursework.Syllabus.19-11-15.pdf">
                   <Button variant="outline-dark">
                     (2015) Pre Ph.D. coursework.{" "}
                     <Badge variant="secondary">PDF</Badge>
@@ -56,7 +56,7 @@ const Syllabus = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/Pre.Ph.D.Coursework.Syllabus.Final.03.2020.pdf"
+                  href="../documents/syllabus/Pre.Ph.D.Coursework.Syllabus.Final.03.2020.pdf"
                 >
                   (2020) Pre Ph.D. coursework.{" "}
                   <Badge variant="secondary">PDF</Badge>{" "}
@@ -74,7 +74,7 @@ const Syllabus = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/Ph.D.First.Paper.Syllabus.pdf"
+                  href="../documents/syllabus/Ph.D.First.Paper.Syllabus.pdf"
                 >
                   Ph.D First Paper Syllabus.{" "}
                   <Badge variant="secondary">PDF</Badge>{" "}

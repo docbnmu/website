@@ -148,7 +148,7 @@ const ALASCHEM = () => (
           variant="outline-dark"
           size="lg"
           block
-          href="../documents/Alumni.Association.of.Chemistry.Receipt.Voucher.pdf"
+          href="../documents/alaschem/Alumni.Association.of.Chemistry.Receipt.Voucher.pdf"
         >
           Alumni Association of Chemistry Receipt Voucher{" "}
           <Badge variant="secondary">PDF</Badge>

@@ -20,7 +20,7 @@ const NoticeBoard = () => (
             variant="outline-dark"
             size="lg"
             block
-            href="../documents/Admitted.Students.in.Ph.D.coursework.2019.pdf"
+            href="../documents/notice/Admitted.Students.in.Ph.D.coursework.2019.pdf"
           >
             Download list
           </Button>
