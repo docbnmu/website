@@ -24,7 +24,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/Enviromental.Ethics.pdf"
+                  href="../documents/reading-material/misc/Enviromental.Ethics.pdf"
                 >
                   Enviromental Ethics <Badge variant="secondary">PDF</Badge>
                 </Button>
@@ -33,7 +33,7 @@ const ReadingMaterial = () => (
 
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/Enviromental.Ethics.pptx"
+                  href="../documents/reading-material/misc/Enviromental.Ethics.pptx"
                 >
                   Enviromental Ethics <Badge variant="secondary">PPTX</Badge>
                 </Button>
@@ -43,7 +43,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/IR.Spectroscopy.pdf"
+                  href="../documents/reading-material/misc/IR.Spectroscopy.pdf"
                 >
                   IR Spectroscopy <Badge variant="secondary">PDF</Badge>
                 </Button>
@@ -52,7 +52,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/Reaction.Mechanism.Oh.Complex.pdf"
+                  href="../documents/reading-material/misc/Reaction.Mechanism.Oh.Complex.pdf"
                 >
                   Reaction mechanism of Octahedral complex compound{" "}
                   <Badge variant="secondary">PDF</Badge>
@@ -62,7 +62,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/Poly.Acid.pdf"
+                  href="../documents/reading-material/misc/Poly.Acid.pdf"
                 >
                   Iso Poly Anion & Hetero Poly Anion{" "}
                   <Badge variant="secondary">PDF</Badge>
@@ -73,7 +73,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/NMR.Spectroscopy.pdf"
+                  href="../documents/reading-material/misc/NMR.Spectroscopy.pdf"
                 >
                   NMR Spectroscopy <Badge variant="secondary">PDF</Badge>
                 </Button>
@@ -82,7 +82,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/Mass.Spectroscopy.pdf"
+                  href="../documents/reading-material/misc/Mass.Spectroscopy.pdf"
                 >
                   Mass Spectroscopy <Badge variant="secondary">PDF</Badge>
                 </Button>
@@ -92,7 +92,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/UV.Spectroscopy.pdf"
+                  href="../documents/reading-material/misc/UV.Spectroscopy.pdf"
                 >
                   UV Spectroscopy <Badge variant="secondary">PDF</Badge>
                 </Button>
@@ -102,7 +102,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/Core.Paper.MOT.Question.Bank.pdf"
+                  href="../documents/reading-material/misc/Core.Paper.MOT.Question.Bank.pdf"
                 >
                   Core Paper MOT Question Bank{" "}
                   <Badge variant="secondary">PDF</Badge>
@@ -112,7 +112,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/Core.Paper.X-Ray.Technique.pdf"
+                  href="../documents/reading-mateial/misc/Core.Paper.X-Ray.Technique.pdf"
                 >
                   Core Paper X-Ray Technique{" "}
                   <Badge variant="secondary">PDF</Badge>
@@ -122,7 +122,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/Research.Methodology.Lecture.Note.pdf"
+                  href="../documents/reading-material/misc/Research.Methodology.Lecture.Note.pdf"
                 >
                   Research Methodology Lecture Note{" "}
                   <Badge variant="secondary">PDF</Badge>
@@ -147,7 +147,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/Vilsmeir.Reaction.pdf"
+                  href="../documents/reading-material/I/Vilsmeir.Reaction.pdf"
                 >
                   Vilsmeir reaction <Badge variant="secondary">PDF</Badge>
                 </Button>
@@ -156,7 +156,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/Gattermann-Koch.Reaction.pdf"
+                  href="../documents/reading-material/I/Gattermann-Koch.Reaction.pdf"
                 >
                   Gattermann-Koch Reaction{" "}
                   <Badge variant="secondary">PDF</Badge>
@@ -191,7 +191,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/Terpenoids.pdf"
+                  href="../documents/reading-material/IV/Terpenoids.pdf"
                 >
                   Terpenoids <Badge variant="secondary">PDF</Badge>
                 </Button>
@@ -200,7 +200,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/ETR.402.I.pdf"
+                  href="../documents/reading-material/IV/ETR.402.I.pdf"
                 >
                   Electron Transfer Reaction in Oh Complexes{" "}
                   <Badge variant="secondary">PDF</Badge>
@@ -226,14 +226,14 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/Research.Hypothesis.pdf"
+                  href="../documents/reading-material/Ph.D/Research.Hypothesis.pdf"
                 >
                   Research Hypothesis <Badge variant="secondary">PDF</Badge>
                 </Button>
                 {"   "}
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/Research.Hypothesis.pptx"
+                  href="../documents/reading-material/Ph.D/Research.Hypothesis.pptx"
                 >
                   Research Hypothesis <Badge variant="secondary">PPTX</Badge>
                 </Button>
