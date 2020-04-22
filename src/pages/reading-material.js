@@ -112,7 +112,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-mateial/misc/Core.Paper.X-Ray.Technique.pdf"
+                  href="../documents/reading-material/misc/Core.Paper.X-Ray.Technique.pdf"
                 >
                   Core Paper X-Ray Technique{" "}
                   <Badge variant="secondary">PDF</Badge>
