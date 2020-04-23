@@ -219,7 +219,7 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/IV/Markus.Hush.Theory.pdf"
+                  href="../documents/reading-material/IV/Marcus.Hush.Theory.pdf"
                 >
                   Marcus Hush Theory <Badge variant="secondary">PDF</Badge>
                 </Button>
