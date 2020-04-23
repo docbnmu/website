@@ -163,6 +163,15 @@ const ReadingMaterial = () => (
                 </Button>
               </p>
               <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/I/Diazonium.Coupling.pdf"
+                >
+                  Diazonium Coupling <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
@@ -204,6 +213,15 @@ const ReadingMaterial = () => (
                 >
                   Electron Transfer Reaction in Oh Complexes{" "}
                   <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/IV/Markus.Hush.Theory.pdf"
+                >
+                  Marcus Hush Theory <Badge variant="secondary">PDF</Badge>
                 </Button>
               </p>
               <hr></hr>
