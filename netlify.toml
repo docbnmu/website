@@ -1,2 +1,11 @@
+[Settings]
+ID = "1d21bd8e-1e92-4498-9823-8d0701358e9f"
+
+[build]
+  publish = "public"
+  command = "gatsby build"
+[[plugins]]
+  package = "netlify-plugin-gatsby-cache"
+
 [build.environment]
   TZ = 'Asia/Kolkata'
