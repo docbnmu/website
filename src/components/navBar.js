@@ -38,7 +38,7 @@ const CustomNavbar = ({ pageInfo }) => {
               <Link to="/alaschem">
                 <Nav.Link as="span" eventKey="ALASCHEM">
                   <Button variant="secondary" active>
-                    ALASCHEM
+                    Alumni
                   </Button>
                 </Nav.Link>
               </Link>

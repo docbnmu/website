@@ -209,6 +209,15 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
+                  href="../documents/reading-material/IV/Terpenoids-2.pdf"
+                >
+                  Terpenoids II <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
                   href="../documents/reading-material/IV/ETR.402.I.pdf"
                 >
                   Electron Transfer Reaction in Oh Complexes{" "}
@@ -225,6 +234,16 @@ const ReadingMaterial = () => (
                 </Button>
               </p>
               <hr></hr>
+              <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/IV/Supramolecular.Chemistry.pdf"
+                >
+                  Supramolecular Chemistry <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr />
             </Card.Body>
           </Accordion.Collapse>
         </Card>
