@@ -1,17 +1,12 @@
 import React from "react"
-import Accordion from "react-bootstrap/Accordion"
-import Card from "react-bootstrap/Card"
-import Button from "react-bootstrap/Button"
+import { Accordion, Card, Button, Badge, Alert } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Badge from "react-bootstrap/Badge"
 import Date from "../components/date"
 
 const ReadingMaterial = () => (
   <Layout pageInfo={{ pageName: "Reading Material" }}>
     <SEO title="Reading Material" />
-    <hr></hr>
-    <br></br>
     <h4>Misc.</h4>
     <div>
       <Accordion defaultActiveKey="0">
@@ -244,6 +239,15 @@ const ReadingMaterial = () => (
                 </Button>
               </p>
               <hr />
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/IV/Metal.Alkoxide.pdf"
+                >
+                  Metal Alkoxide <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
@@ -283,6 +287,10 @@ const ReadingMaterial = () => (
     </div>
     <hr></hr>
     <br></br>
+    <Alert variant="dark">
+    Download all files {' '}
+    <Alert.Link href="https://docbnmu.github.io/">here.</Alert.Link>
+  </Alert>
     <Date />
     <hr />
   </Layout>
