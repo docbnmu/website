@@ -167,6 +167,16 @@ const ReadingMaterial = () => (
                 </Button>
               </p>
               <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/I/Aromatic.Electrophilic.Substitution.pdf"
+                >
+                  Aromatic Electrophilic Substitution{" "}
+                  <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
@@ -235,7 +245,8 @@ const ReadingMaterial = () => (
                   variant="outline-dark"
                   href="../documents/reading-material/IV/Supramolecular.Chemistry.pdf"
                 >
-                  Supramolecular Chemistry <Badge variant="secondary">PDF</Badge>
+                  Supramolecular Chemistry{" "}
+                  <Badge variant="secondary">PDF</Badge>
                 </Button>
               </p>
               <hr />
@@ -288,9 +299,9 @@ const ReadingMaterial = () => (
     <hr></hr>
     <br></br>
     <Alert variant="dark">
-    Download all files {' '}
-    <Alert.Link href="https://docbnmu.github.io/">here.</Alert.Link>
-  </Alert>
+      Download all files{" "}
+      <Alert.Link href="https://docbnmu.github.io/">here.</Alert.Link>
+    </Alert>
     <Date />
     <hr />
   </Layout>

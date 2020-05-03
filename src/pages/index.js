@@ -13,10 +13,7 @@ import ImgCb from "../images/gallery/Chem.BNMU36@2x.jpg"
 
 const IndexPage = () => (
   <Layout pageInfo={{ pageName: "Home" }}>
-    <SEO
-      title="Home - University Department of Chemistry"
-      keywords={[`docbnmu`, `bnmu`, `madhepura`]}
-    />
+    <SEO title="Home" keywords={[`docbnmu`, `bnmu`, `madhepura`]} />
     <Container>
       <Carousel>
         <Carousel.Item>
