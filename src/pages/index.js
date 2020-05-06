@@ -1,7 +1,6 @@
 import React from "react"
 import NoticeBoard from "./post-notice"
-import { Container } from "react-bootstrap"
-import Carousel from "react-bootstrap/Carousel"
+import { Container, Carousel } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ImgA from "../images/gallery/Chem.BNMU14@2xx.jpg"
@@ -17,25 +16,28 @@ const IndexPage = () => (
     <Container>
       <Carousel>
         <Carousel.Item>
-          <picture>
-            <source media="(max-width: 600px)" srcset={ImgA} />
-            <source media="(min-width: 601px)" srcset={ImgAb} />
-            <img class="img-fluid lazy" src={ImgAb} alt="" />
-          </picture>
+          <img
+            className="img-fluid lazy"
+            src={ImgA}
+            srcSet={`${ImgA} 768w, ${ImgAb} 1920w`}
+            alt="#"
+          />
         </Carousel.Item>
         <Carousel.Item>
-          <picture>
-            <source media="(max-width: 600px)" srcset={ImgB} />
-            <source media="(min-width: 601px)" srcset={ImgBb} />
-            <img class="img-fluid lazy" src={ImgBb} alt="" />
-          </picture>
+          <img
+            className="img-fluid lazy"
+            src={ImgB}
+            srcSet={`${ImgB} 768w, ${ImgBb} 1920w`}
+            alt="#"
+          />
         </Carousel.Item>
         <Carousel.Item>
-          <picture>
-            <source media="(max-width: 600px)" srcset={ImgC} />
-            <source media="(min-width: 601px)" srcset={ImgCb} />
-            <img class="img-fluid lazy" src={ImgCb} alt="" />
-          </picture>
+          <img
+            className="img-fluid lazy"
+            src={ImgC}
+            srcSet={`${ImgC} 768w, ${ImgCb} 1920w`}
+            alt="#"
+          />
         </Carousel.Item>
       </Carousel>
     </Container>

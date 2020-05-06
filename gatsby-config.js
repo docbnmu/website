@@ -53,6 +53,7 @@ module.exports = {
         output: `/sitemap.xml`,
       },
     },
+    'gatsby-plugin-optimize-svgs',
     {
       resolve: `gatsby-plugin-build-date`,
       options: {

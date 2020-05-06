@@ -16,7 +16,7 @@ const PhotoGallery = () => (
       <Button variant="outline-dark" size="lg" block>
         Open with
         <img
-          class="img-fluid lazy"
+          className="img-fluid lazy"
           src={GooglePhotos}
           alt="Google Photos"
         ></img>

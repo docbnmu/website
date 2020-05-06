@@ -31,42 +31,54 @@ const Faculty = () => (
             <td>Dr. Kameshwar Kumar</td>
             <td>Head &amp; Associate Professor (Physical Chemistry)</td>
             <td>
-              <img src={DrKK} class="img-fluid" alt="Dr. Kameshwar Kumar" />
+              <img src={DrKK} className="img-fluid" alt="Dr. Kameshwar Kumar" />
             </td>
           </tr>
           <tr>
             <td>Dr. Ashok Kumar Yadav</td>
             <td>University Professor (Inorganic Chemistry)</td>
             <td>
-              <img src={DrAKY1} class="img-fluid" alt="Dr. Ashok Kumar Yadav" />
+              <img
+                src={DrAKY1}
+                className="img-fluid"
+                alt="Dr. Ashok Kumar Yadav"
+              />
             </td>
           </tr>
           <tr>
             <td>Dr. Arun Kumar Yadav</td>
             <td>University Professor (Organic Chemistry)</td>
             <td>
-              <img src={DrAKY} class="img-fluid" alt="Dr. Arun Kumar Yadav" />
+              <img
+                src={DrAKY}
+                className="img-fluid"
+                alt="Dr. Arun Kumar Yadav"
+              />
             </td>
           </tr>
           <tr>
             <td>Dr. Naresh Kumar</td>
             <td>University Professor (Inorganic Chemistry)</td>
             <td>
-              <img src={DrNK} class="img-fluid" alt="Dr. Naresh Kumar" />
+              <img src={DrNK} className="img-fluid" alt="Dr. Naresh Kumar" />
             </td>
           </tr>
           <tr>
             <td>Dr. Mohit Kumar Ghosh</td>
             <td>Associate Professor (Inorganic Chemistry)</td>
             <td>
-              <img src={DrMKG} class="img-fluid" alt="Dr. Mohit Kumar Ghosh" />
+              <img
+                src={DrMKG}
+                className="img-fluid"
+                alt="Dr. Mohit Kumar Ghosh"
+              />
             </td>
           </tr>
           <tr>
             <td>Dr. Anil Kumar</td>
             <td>Associate Professor (Organic Chemistry)</td>
             <td>
-              <img src={DrAK} class="img-fluid" alt="Dr. Anil Kumar" />
+              <img src={DrAK} className="img-fluid" alt="Dr. Anil Kumar" />
             </td>
           </tr>
         </tbody>

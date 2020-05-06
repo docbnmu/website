@@ -59,7 +59,7 @@ const ReadingMaterial = () => (
                   variant="outline-dark"
                   href="../documents/reading-material/misc/Poly.Acid.pdf"
                 >
-                  Iso Poly Anion & Hetero Poly Anion{" "}
+                  Isopoly & Heteropoly anion{" "}
                   <Badge variant="secondary">PDF</Badge>
                 </Button>
               </p>
@@ -185,7 +185,7 @@ const ReadingMaterial = () => (
             Semester II
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="2">
-            <Card.Body>Hello! </Card.Body>
+            <Card.Body>No content yet. </Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card>
@@ -193,7 +193,17 @@ const ReadingMaterial = () => (
             Semester III
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="3">
-            <Card.Body>Hello! </Card.Body>
+            <Card.Body>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/III/UV.Spectroscopy.pdf"
+                >
+                  UV Spectroscopy <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
+            </Card.Body>
           </Accordion.Collapse>
         </Card>
         <Card>
@@ -239,7 +249,6 @@ const ReadingMaterial = () => (
                 </Button>
               </p>
               <hr></hr>
-              <hr></hr>
               <p>
                 <Button
                   variant="outline-dark"
@@ -256,6 +265,26 @@ const ReadingMaterial = () => (
                   href="../documents/reading-material/IV/Metal.Alkoxide.pdf"
                 >
                   Metal Alkoxide <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/IV/Basic.Concepts.Supramolecular.Chemistry.pdf"
+                >
+                  Basic concepts of Supramolecular Chemistry{" "}
+                  <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/IV/Synthesis.Preparation.and.Properties.of.Metal.Acetylacetonate.Complex.pdf"
+                >
+                  Synthesis, preparation & properties of Metal Acetylacetonate
+                  complex <Badge variant="secondary">PDF</Badge>
                 </Button>
               </p>
               <hr></hr>
@@ -288,6 +317,16 @@ const ReadingMaterial = () => (
                   href="../documents/reading-material/Ph.D/Research.Hypothesis.pptx"
                 >
                   Research Hypothesis <Badge variant="secondary">PPTX</Badge>
+                </Button>
+              </p>
+              <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/IV/Synthesis.Preparation.and.Properties.of.Metal.Acetylacetonate.Complex.pdf"
+                >
+                  Synthesis, preparation & properties of Metal Acetylacetonate
+                  complex <Badge variant="secondary">PDF</Badge>
                 </Button>
               </p>
               <hr></hr>

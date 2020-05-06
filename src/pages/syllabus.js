@@ -1,11 +1,7 @@
 import React from "react"
-import Accordion from "react-bootstrap/Accordion"
-import Card from "react-bootstrap/Card"
-import Button from "react-bootstrap/Button"
+import { Accordion, Button, Card, Badge } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Badge from "react-bootstrap/Badge"
-import { Link } from "gatsby"
 
 const Syllabus = () => (
   <Layout pageInfo={{ pageName: "Syllabus" }}>
@@ -19,21 +15,23 @@ const Syllabus = () => (
           <Accordion.Collapse eventKey="0">
             <Card.Body>
               <p>
-                <Link to="../documents/syllabus/Syllabus.for.PG.Semester.19-11-15.pdf">
-                  <Button variant="outline-dark">
-                    Syllabus for P.G. semester.{" "}
-                    <Badge variant="secondary">PDF</Badge>
-                  </Button>
-                </Link>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/syllabus/Syllabus.for.PG.Semester.19-11-15.pdf"
+                >
+                  Syllabus for P.G. semester.{" "}
+                  <Badge variant="secondary">PDF</Badge>
+                </Button>
               </p>
               <hr></hr>
               <p>
-                <Link to="../documents/syllabus/Final.Syllabus.CBCS.Revised.Chemistry.pdf">
-                  <Button variant="outline-dark">
-                    CBCS-based syllabus for M.Sc. Chemistry{" "}
-                    <Badge variant="secondary">PDF</Badge>
-                  </Button>
-                </Link>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/syllabus/Final.Syllabus.CBCS.Revised.Chemistry.pdf"
+                >
+                  CBCS-based syllabus for M.Sc. Chemistry{" "}
+                  <Badge variant="secondary">PDF</Badge>
+                </Button>
               </p>
             </Card.Body>
           </Accordion.Collapse>
@@ -45,12 +43,13 @@ const Syllabus = () => (
           <Accordion.Collapse eventKey="1">
             <Card.Body>
               <p>
-                <Link to="../documents/syllabus/Pre.Ph.D.Coursework.Syllabus.19-11-15.pdf">
-                  <Button variant="outline-dark">
-                    (2015) Pre Ph.D. coursework.{" "}
-                    <Badge variant="secondary">PDF</Badge>
-                  </Button>
-                </Link>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/syllabus/Pre.Ph.D.Coursework.Syllabus.19-11-15.pdf"
+                >
+                  (2015) Pre Ph.D. coursework.{" "}
+                  <Badge variant="secondary">PDF</Badge>
+                </Button>
               </p>
               <hr></hr>
               <p>

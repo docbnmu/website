@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import logo from "../../static/logo-opt.svg"
+import logo from "../../static/images/logo@white.svg"
 
 import { Navbar, Nav, Button } from "react-bootstrap"
 
@@ -10,15 +10,15 @@ const CustomNavbar = ({ pageInfo }) => {
     <>
       <Navbar variant="dark" expand="md" id="site-navbar">
         {/* <Container> */}
-        <div class="container">
+        <div className="container">
           <Link to="/" className="link-no-style">
-            <Navbar.Brand as="span">
+            <Navbar.Brand>
               <img
-                class="img-fluid lazy"
+                className="img-fluid lazy"
                 src={logo}
-                width="40"
-                height="40"
-                alt="&#8962;"
+                width="80"
+                height="80"
+                alt="Home"
               ></img>
             </Navbar.Brand>
           </Link>

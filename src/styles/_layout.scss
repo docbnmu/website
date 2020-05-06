@@ -9,7 +9,7 @@ div.full-height {
 
 a.link-no-style {
   &:hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
@@ -23,7 +23,7 @@ a.link-no-style {
     position: relative;
     bottom: 0;
     margin-top: -60px;
-    height: 60px;
+    height: 100px;
     clear: both;
     background-color: $color-primary;
     color: white;
