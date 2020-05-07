@@ -23,7 +23,7 @@ const Lightbox = ({
   return (
     <LightboxReact
       enableZoom={false}
-      clickOutsideToClose={true}
+      clickOutsideToClose={false}
       mainSrc={array[selectedImage]}
       nextSrc={array[(selectedImage + 1) % array.length]}
       prevSrc={array[(selectedImage + array.length - 1) % images.length]}
