@@ -9,6 +9,7 @@ module.exports = {
     title: `University Department of Chemistry`,
     description: `University Department of Chemistry, B. N. Mandal University, Madhepura (Bihar).`,
     author: `docbnmu.in`,
+    //siteUrl: `https://docbnmu.github.io/website/`,
     siteUrl: `https://docbnmu.in/`,
     siteDescription: `Bhupendra Narayan Mandal University also called B. N. Mandal University and in short BNMU is situated at the district headquarter, Madhepura a district in Bihar. It is known for adding glory to the educational atmosphere of this district and it’s surrounding. It is a regional university famous for its quality teaching.`,
     siteLanguage: `en`,
@@ -67,13 +68,14 @@ module.exports = {
       options: {
         name: `University Department of Chemistry`,
         short_name: `Univ. Dept. of Chem.`,
-        icon: `static/images/logo.png`,
+        icon: `static/images/maskable_icon.png`,
         start_url: `/`,
         background_color: `#20232a`,
         theme_color: `#20232a`,
-        display: `minimal-ui`,
-      }
-    }
+        display: `standalone`,
+        purpose: `any maskable`,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     //`gatsby-plugin-offline`,

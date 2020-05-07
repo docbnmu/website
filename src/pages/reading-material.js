@@ -288,6 +288,16 @@ const ReadingMaterial = () => (
                 </Button>
               </p>
               <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/IV/Reaction.Mechanism.Oh.Complex.pdf"
+                >
+                  Reaction Mechanism of Oh Complexes{" "}
+                  <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
@@ -307,16 +317,9 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/Ph.D/Research.Hypothesis.pdf"
+                  href="../documents/reading-material/Ph.D/researchhypothesis.pdf"
                 >
                   Research Hypothesis <Badge variant="secondary">PDF</Badge>
-                </Button>
-                {"   "}
-                <Button
-                  variant="outline-dark"
-                  href="../documents/reading-material/Ph.D/Research.Hypothesis.pptx"
-                >
-                  Research Hypothesis <Badge variant="secondary">PPTX</Badge>
                 </Button>
               </p>
               <hr></hr>

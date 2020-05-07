@@ -49,10 +49,12 @@ const Layout = ({ children, pageInfo, data }) => (
             <Col className="footer-col justify-content-center">
               <footer>
                 <span>
-                  <h5>
-                    University's website: bnmu.ac.in &bull; Laloo Nagar,
-                    Madhepura (852113) Bihar.
-                  </h5>
+                  <section>
+                    <h5>
+                      University's website: bnmu.ac.in &bull; Laloo Nagar,
+                      Madhepura (852113) Bihar.
+                    </h5>
+                  </section>
                 </span>
               </footer>
             </Col>
