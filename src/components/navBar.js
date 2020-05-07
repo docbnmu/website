@@ -8,7 +8,8 @@ const CustomNavbar = ({ pageInfo }) => {
   console.log(pageInfo)
   return (
     <>
-      <Navbar variant="dark" expand="md" id="site-navbar">
+      <Navbar collapseOnSelect expand="lg" variant="dark" id="site-navbar">
+        
         {/* <Container> */}
         <div className="container">
           <Link to="/" className="link-no-style">
@@ -22,10 +23,10 @@ const CustomNavbar = ({ pageInfo }) => {
               ></img>
             </Navbar.Brand>
           </Link>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse
             className="justify-content-center"
-            id="basic-navbar-nav"
+            id="responsive-navbar-nav"
           >
             <Nav className="mr-auto" activeKey={pageInfo && pageInfo.pageName}>
               <Link to="/about">
