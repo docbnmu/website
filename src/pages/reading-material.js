@@ -317,9 +317,16 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/Ph.D/researchhypothesis.pdf"
+                  href="../documents/reading-material/Ph.D/Research.Hypothesis.pdf"
                 >
                   Research Hypothesis <Badge variant="secondary">PDF</Badge>
+                </Button>
+                {"   "}
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/Ph.D/Research.Hypothesis.pptx"
+                >
+                  Research Hypothesis <Badge variant="secondary">PPTX</Badge>
                 </Button>
               </p>
               <hr></hr>
