@@ -38,15 +38,6 @@ const ReadingMaterial = () => (
               <p>
                 <Button
                   variant="outline-dark"
-                  href="../documents/reading-material/misc/IR.Spectroscopy.pdf"
-                >
-                  IR Spectroscopy <Badge variant="secondary">PDF</Badge>
-                </Button>
-              </p>
-              <hr></hr>
-              <p>
-                <Button
-                  variant="outline-dark"
                   href="../documents/reading-material/misc/Reaction.Mechanism.Oh.Complex.pdf"
                 >
                   Reaction mechanism of Octahedral complex compound{" "}
@@ -61,35 +52,6 @@ const ReadingMaterial = () => (
                 >
                   Isopoly & Heteropoly anion{" "}
                   <Badge variant="secondary">PDF</Badge>
-                </Button>
-              </p>
-              <hr></hr>
-
-              <p>
-                <Button
-                  variant="outline-dark"
-                  href="../documents/reading-material/misc/NMR.Spectroscopy.pdf"
-                >
-                  NMR Spectroscopy <Badge variant="secondary">PDF</Badge>
-                </Button>
-              </p>
-              <hr></hr>
-              <p>
-                <Button
-                  variant="outline-dark"
-                  href="../documents/reading-material/misc/Mass.Spectroscopy.pdf"
-                >
-                  Mass Spectroscopy <Badge variant="secondary">PDF</Badge>
-                </Button>
-              </p>
-              <hr></hr>
-
-              <p>
-                <Button
-                  variant="outline-dark"
-                  href="../documents/reading-material/misc/UV.Spectroscopy.pdf"
-                >
-                  UV Spectroscopy <Badge variant="secondary">PDF</Badge>
                 </Button>
               </p>
               <hr></hr>
@@ -200,6 +162,33 @@ const ReadingMaterial = () => (
                   href="../documents/reading-material/III/UV.Spectroscopy.pdf"
                 >
                   UV Spectroscopy <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/III/IR.Spectroscopy.pdf"
+                >
+                  IR Spectroscopy <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/III/NMR.Spectroscopy.pdf"
+                >
+                  NMR Spectroscopy <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/III/Mass.Spectroscopy.pdf"
+                >
+                  Mass Spectroscopy <Badge variant="secondary">PDF</Badge>
                 </Button>
               </p>
               <hr></hr>

@@ -9,7 +9,6 @@ const CustomNavbar = ({ pageInfo }) => {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" variant="dark" id="site-navbar">
-        
         {/* <Container> */}
         <div className="container">
           <Link to="/" className="link-no-style">
