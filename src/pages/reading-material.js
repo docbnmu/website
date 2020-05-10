@@ -291,8 +291,7 @@ const ReadingMaterial = () => (
                   variant="outline-dark"
                   href="../documents/reading-material/IV/Photochemistry.pdf"
                 >
-                  Photochemistry{" "}
-                  <Badge variant="secondary">PDF</Badge>
+                  Photochemistry <Badge variant="secondary">PDF</Badge>
                 </Button>
               </p>
               <hr></hr>
@@ -301,8 +300,7 @@ const ReadingMaterial = () => (
                   variant="outline-dark"
                   href="../documents/reading-material/IV/Zinziberene.pdf"
                 >
-                  Zinziberene{" "}
-                  <Badge variant="secondary">PDF</Badge>
+                  Zinziberene <Badge variant="secondary">PDF</Badge>
                 </Button>
               </p>
               <hr></hr>
