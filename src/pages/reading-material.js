@@ -34,17 +34,6 @@ const ReadingMaterial = () => (
                 </Button>
               </p>
               <hr></hr>
-
-              <p>
-                <Button
-                  variant="outline-dark"
-                  href="../documents/reading-material/misc/Reaction.Mechanism.Oh.Complex.pdf"
-                >
-                  Reaction mechanism of Octahedral complex compound{" "}
-                  <Badge variant="secondary">PDF</Badge>
-                </Button>
-              </p>
-              <hr></hr>
               <p>
                 <Button
                   variant="outline-dark"
@@ -135,6 +124,16 @@ const ReadingMaterial = () => (
                   href="../documents/reading-material/I/Aromatic.Electrophilic.Substitution.pdf"
                 >
                   Aromatic Electrophilic Substitution{" "}
+                  <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/I/Aromatic.Electrophilic.Substitution-2.pdf"
+                >
+                  Aromatic Electrophilic Substitution II{" "}
                   <Badge variant="secondary">PDF</Badge>
                 </Button>
               </p>
@@ -283,6 +282,26 @@ const ReadingMaterial = () => (
                   href="../documents/reading-material/IV/Reaction.Mechanism.Oh.Complex.pdf"
                 >
                   Reaction Mechanism of Oh Complexes{" "}
+                  <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/IV/Photochemistry.pdf"
+                >
+                  Photochemistry{" "}
+                  <Badge variant="secondary">PDF</Badge>
+                </Button>
+              </p>
+              <hr></hr>
+              <p>
+                <Button
+                  variant="outline-dark"
+                  href="../documents/reading-material/IV/Zinziberene.pdf"
+                >
+                  Zinziberene{" "}
                   <Badge variant="secondary">PDF</Badge>
                 </Button>
               </p>
