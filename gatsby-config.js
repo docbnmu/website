@@ -9,7 +9,7 @@ module.exports = {
     title: `University Department of Chemistry`,
     description: `University Department of Chemistry, B. N. Mandal University, Madhepura (Bihar).`,
     author: `docbnmu.in`,
-    //siteUrl: `https://docbnmu.github.io/website/`,
+   //siteUrl: `https://docbnmu.github.io/website/`,
     siteUrl: `https://docbnmu.in/`,
     siteDescription: `Bhupendra Narayan Mandal University also called B. N. Mandal University and in short BNMU is situated at the district headquarter, Madhepura a district in Bihar. It is known for adding glory to the educational atmosphere of this district and it’s surrounding. It is a regional university famous for its quality teaching.`,
     siteLanguage: `en`,
@@ -31,13 +31,6 @@ module.exports = {
         path: `${__dirname}/static/documents`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `gallery`,
-        path: `${__dirname}/src/images/gallery`,
-      },
-    },
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     {
@@ -54,7 +47,6 @@ module.exports = {
         output: `/sitemap.xml`,
       },
     },
-    'gatsby-plugin-optimize-svgs',
     {
       resolve: `gatsby-plugin-build-date`,
       options: {
@@ -76,13 +68,7 @@ module.exports = {
         purpose: `any maskable`,
       },
     },
-    {
-      resolve: `gatsby-plugin-minify-classnames`,
-      options: {
-        dictionary: 'bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ0123456789',
-        enableOnDevelopment: false,
-      },
-    },
+    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     //`gatsby-plugin-offline`,

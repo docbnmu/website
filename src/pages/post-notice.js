@@ -1,6 +1,5 @@
 import React from "react"
-import Alert from "react-bootstrap/Alert"
-import Button from "react-bootstrap/Button"
+import { Alert, Button } from "react-bootstrap"
 import Date from "../components/date"
 
 const NoticeBoard = () => (

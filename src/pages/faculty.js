@@ -31,7 +31,11 @@ const Faculty = () => (
             <td>Dr. Kameshwar Kumar</td>
             <td>Head &amp; Associate Professor (Physical Chemistry)</td>
             <td>
-              <img src={DrKK} className="img-fluid" alt="Dr. Kameshwar Kumar" />
+              <img
+                src={DrKK}
+                className="img-fluid rounded-lg"
+                alt="Dr. Kameshwar Kumar"
+              />
             </td>
           </tr>
           <tr>
@@ -40,7 +44,7 @@ const Faculty = () => (
             <td>
               <img
                 src={DrAKY1}
-                className="img-fluid"
+                className="img-fluid rounded-lg"
                 alt="Dr. Ashok Kumar Yadav"
               />
             </td>
@@ -51,7 +55,7 @@ const Faculty = () => (
             <td>
               <img
                 src={DrAKY}
-                className="img-fluid"
+                className="img-fluid rounded-lg"
                 alt="Dr. Arun Kumar Yadav"
               />
             </td>
@@ -60,7 +64,11 @@ const Faculty = () => (
             <td>Dr. Naresh Kumar</td>
             <td>University Professor (Inorganic Chemistry)</td>
             <td>
-              <img src={DrNK} className="img-fluid" alt="Dr. Naresh Kumar" />
+              <img
+                src={DrNK}
+                className="img-fluid rounded-lg"
+                alt="Dr. Naresh Kumar"
+              />
             </td>
           </tr>
           <tr>
@@ -69,7 +77,7 @@ const Faculty = () => (
             <td>
               <img
                 src={DrMKG}
-                className="img-fluid"
+                className="img-fluid rounded-lg"
                 alt="Dr. Mohit Kumar Ghosh"
               />
             </td>
@@ -78,7 +86,11 @@ const Faculty = () => (
             <td>Dr. Anil Kumar</td>
             <td>Associate Professor (Organic Chemistry)</td>
             <td>
-              <img src={DrAK} className="img-fluid" alt="Dr. Anil Kumar" />
+              <img
+                src={DrAK}
+                className="img-fluid rounded-lg"
+                alt="Dr. Anil Kumar"
+              />
             </td>
           </tr>
         </tbody>
