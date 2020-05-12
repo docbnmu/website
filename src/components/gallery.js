@@ -2,6 +2,7 @@ import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import Lightbox from "react-image-lightbox"
 import "react-image-lightbox/style.css"
+
 class LightboxPage extends React.Component {
   state = {
     photoIndex: 0,
@@ -20,7 +21,6 @@ class LightboxPage extends React.Component {
       "../images/gallery/Chem.BNMU12.jpg",
       "../images/gallery/Chem.BNMU14@2x.jpg",
       "../images/gallery/Chem.BNMU15.jpg",
-      "../images/gallery/Chem.BNMU16.jpg",
       "../images/gallery/Chem.BNMU17.jpg",
       "../images/gallery/Chem.BNMU18.jpg",
       "../images/gallery/Chem.BNMU19.jpg",
@@ -77,10 +77,10 @@ class LightboxPage extends React.Component {
       photoIndex++
       const privateKey = photoIndex
       return (
-        <Col md="3" className="inline-flex" key={photoIndex}>
+        <Col md="4" className="inline-flex" key={photoIndex}>
           <figure>
             <img
-              src={'https://cdn.statically.io/img/docbnmu.github.io/website/salt/' + imageSrc + '?w=480&h=360&quality=80&f=auto'}
+              src={'https://images.weserv.nl/?url=docbnmu.github.io/website/x/' + imageSrc + '?w=480&h=360&il&q=70&maxage=31d'}
               alt="#"
               loading="lazy"
               className="lazy img-fluid rounded-lg"
