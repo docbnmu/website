@@ -32,7 +32,6 @@ class LightboxPage extends React.Component {
       "https://ik.imagekit.io/85x/https://docbnmu.github.io/website//images/gallery/Chem.BNMU23.jpg",
       "https://ik.imagekit.io/85x/https://docbnmu.github.io/website//images/gallery/Chem.BNMU24.jpg",
       "https://ik.imagekit.io/85x/https://docbnmu.github.io/website//images/gallery/Chem.BNMU25.jpg",
-
       "https://ik.imagekit.io/85x/https://docbnmu.github.io/website//images/gallery/Chem.BNMU27.jpg",
       "https://ik.imagekit.io/85x/https://docbnmu.github.io/website//images/gallery/Chem.BNMU28.jpg",
       "https://ik.imagekit.io/85x/https://docbnmu.github.io/website//images/gallery/Chem.BNMU29.jpg",
@@ -61,7 +60,6 @@ class LightboxPage extends React.Component {
       "https://ik.imagekit.io/85x/https://docbnmu.github.io/website//images/gallery/Chem.BNMU56.jpg",
       "https://ik.imagekit.io/85x/https://docbnmu.github.io/website//images/gallery/Chem.BNMU57.jpg",
       "https://ik.imagekit.io/85x/https://docbnmu.github.io/website//images/gallery/Chem.BNMU58.jpg",
-
       "https://ik.imagekit.io/85x/https://docbnmu.github.io/website//images/gallery/Chem.BNMU60.jpg",
       "https://ik.imagekit.io/85x/https://docbnmu.github.io/website//images/gallery/Chem.BNMU49.jpg",
       "https://ik.imagekit.io/85x/https://docbnmu.github.io/website//images/gallery/Chem.BNMU45.jpg",
