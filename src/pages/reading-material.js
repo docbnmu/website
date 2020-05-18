@@ -10,7 +10,7 @@ const ReadingMaterial = () => (
       <SEO title="Reading Material" />
       <h4>Misc.</h4>
       <div>
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="01">
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey="0">
               Misc.
