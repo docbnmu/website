@@ -299,6 +299,15 @@ const ReadingMaterial = () => (
                 <p>
                   <Button
                     variant="outline-dark"
+                    href="../documents/reading-material/IV/Photochemistry-II.pdf"
+                  >
+                    Photochemistry II<Badge variant="secondary">PDF</Badge>
+                  </Button>
+                </p>
+                <hr></hr>
+                <p>
+                  <Button
+                    variant="outline-dark"
                     href="../documents/reading-material/IV/Zinziberene.pdf"
                   >
                     Zinziberene <Badge variant="secondary">PDF</Badge>
@@ -380,6 +389,24 @@ const ReadingMaterial = () => (
                     href="../documents/reading-material/III/Mass.Spectroscopy.pdf"
                   >
                     Mass Spectroscopy <Badge variant="secondary">PDF</Badge>
+                  </Button>
+                </p>
+                <hr></hr>
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/IV/Photochemistry.pdf"
+                  >
+                    Photochemistry <Badge variant="secondary">PDF</Badge>
+                  </Button>
+                </p>
+                <hr></hr>
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/IV/Photochemistry-II.pdf"
+                  >
+                    Photochemistry II<Badge variant="secondary">PDF</Badge>
                   </Button>
                 </p>
                 <hr></hr>
