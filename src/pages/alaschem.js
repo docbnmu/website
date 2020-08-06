@@ -7,7 +7,9 @@ const ALASCHEM = () => (
   <React.Fragment>
     <Layout pageInfo={{ pageName: "Alumni Association of Chemistry" }}>
       <SEO title="Alumni Association of Chemistry" />
-
+      <center>
+      <iframe width="720" height="480" src="https://www.youtube.com/embed/mLZf7dwBZOs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
       <h4>
         <strong>About of ALASCHEM</strong>
       </h4>
