@@ -22,7 +22,8 @@
     "react-bootstrap": "1.0.1",
     "react-dom": "16.13.1",
     "react-helmet": "6.0.0",
-    "react-image-lightbox": "^5.1.1"
+    "react-image-lightbox": "^5.1.1",
+    "react-lite-youtube-embed": "^0.3.1"
   },
   "devDependencies": {
     "gatsby-plugin-offline": "3.2.2",

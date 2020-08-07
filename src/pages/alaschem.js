@@ -2,14 +2,24 @@ import React from "react"
 import { Button, Badge } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { LiteYouTubeEmbed } from "react-lite-youtube-embed"
 
 const ALASCHEM = () => (
   <React.Fragment>
     <Layout pageInfo={{ pageName: "Alumni Association of Chemistry" }}>
       <SEO title="Alumni Association of Chemistry" />
       <center>
-      <iframe width="720" height="480" src="https://www.youtube.com/embed/mLZf7dwBZOs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div>
+      <LiteYouTubeEmbed 
+        id="mLZf7dwBZOs"
+        title="Alumni Meet-2020, Department of Chemistry, B. N. Mandal University, Madhepura (Bihar)"
+        noCookie={true}
+
+    />
+      </div>
       </center>
+      <br />
+      <hr />
       <h4>
         <strong>About of ALASCHEM</strong>
       </h4>
