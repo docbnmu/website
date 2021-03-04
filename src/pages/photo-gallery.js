@@ -13,11 +13,12 @@ const PhotoGallery = () => (
       <br></br>
       <a href="https://photos.app.goo.gl/JftTj3VzsgyPqJQUA">
         <Button variant="outline-dark" size="lg" block>
-          Open with
+          Open with &nbsp;
           <img
             className="img-fluid lazy"
             src={GooglePhotos}
             alt="Google Photos"
+            width="200vh"
           ></img>
         </Button>
       </a>
