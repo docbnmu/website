@@ -157,6 +157,15 @@ const ReadingMaterial = () => (
                   </Button>
                 </p>
                 <hr></hr>
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/II/Racah.Parameter.pdf"
+                  >
+                    Racah Parameter <Badge variant="secondary">PDF</Badge>
+                  </Button>
+                </p>
+                <hr></hr>
                 </Card.Body>
             </Accordion.Collapse>
           </Card>
