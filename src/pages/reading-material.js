@@ -10,7 +10,7 @@ const ReadingMaterial = () => (
       <SEO title="Reading Material" />
       <h4>Misc.</h4>
       <div>
-        <Accordion defaultActiveKey="01">
+        <Accordion defaultActiveKey="7">
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey="0">
               Misc.
@@ -84,7 +84,7 @@ const ReadingMaterial = () => (
       <br></br>
       <h4>Post Graduate</h4>
       <div>
-        <Accordion defaultActiveKey="1">
+        <Accordion defaultActiveKey="9">
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey="1">
               Semester I
@@ -163,6 +163,15 @@ const ReadingMaterial = () => (
                     href="../documents/reading-material/II/Racah.Parameter.pdf"
                   >
                     Racah Parameter <Badge variant="secondary">PDF</Badge>
+                  </Button>
+                </p>
+                <hr></hr>
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/II/Nephelauxtic.Effect.pdf"
+                  >
+                    Nephelauxtic Effect <Badge variant="secondary">PDF</Badge>
                   </Button>
                 </p>
                 <hr></hr>
@@ -342,7 +351,7 @@ const ReadingMaterial = () => (
       <br></br>
       <h4>Ph.D.</h4>
       <div>
-        <Accordion defaultActiveKey="5">
+        <Accordion defaultActiveKey="8">
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey="5">
               Ph.D. coursework
