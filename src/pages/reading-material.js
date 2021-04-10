@@ -169,9 +169,18 @@ const ReadingMaterial = () => (
                 <p>
                   <Button
                     variant="outline-dark"
-                    href="../documents/reading-material/II/Nephelauxtic.Effect.pdf"
+                    href="../documents/reading-material/II/Nephelauxtic effect.pdf"
                   >
                     Nephelauxtic Effect <Badge variant="secondary">PDF</Badge>
+                  </Button>
+                </p>
+                <hr></hr>Charge transfer spectra of CCC.pdf
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/II/Charge transfer spectra of CCC.pdf"
+                  >
+                    Charge transfer spectra of CCC <Badge variant="secondary">PDF</Badge>
                   </Button>
                 </p>
                 <hr></hr>
