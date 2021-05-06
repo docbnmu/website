@@ -2,7 +2,7 @@ import React from "react"
 import { Button, Badge } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { LiteYouTubeEmbed } from "react-lite-youtube-embed"
+import LiteYouTubeEmbed from 'react-lite-youtube-embed'
 
 const ALASCHEM = () => (
   <React.Fragment>

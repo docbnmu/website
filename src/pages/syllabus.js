@@ -7,12 +7,12 @@ const Syllabus = () => (
   <Layout pageInfo={{ pageName: "Syllabus" }}>
     <SEO title="Syllabus" />
     <div>
-      <Accordion defaultActiveKey="0">
+      <Accordion>
+      <Accordion.Item eventKey="0">
+          <Accordion.Header>Post Graduate</Accordion.Header>
+            <Accordion.Body>
         <Card>
-          <Accordion.Toggle as={Card.Header} eventKey="0">
-            Post Graduate
-          </Accordion.Toggle>
-          <Accordion.Collapse eventKey="0">
+          
             <Card.Body>
               <p>
                 <Button
@@ -34,13 +34,15 @@ const Syllabus = () => (
                 </Button>
               </p>
             </Card.Body>
-          </Accordion.Collapse>
+          
         </Card>
+        </Accordion.Body>
+       </Accordion.Item>
+       <Accordion.Item eventKey="1">
+          <Accordion.Header>Pre Ph.D.</Accordion.Header>
+            <Accordion.Body>
         <Card>
-          <Accordion.Toggle as={Card.Header} eventKey="1">
-            Pre. Ph.D.
-          </Accordion.Toggle>
-          <Accordion.Collapse eventKey="1">
+          
             <Card.Body>
               <p>
                 <Button
@@ -62,13 +64,15 @@ const Syllabus = () => (
                 </Button>
               </p>
             </Card.Body>
-          </Accordion.Collapse>
+          
         </Card>
+        </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="2">
+    <Accordion.Header>Ph.D.</Accordion.Header>
+    <Accordion.Body>
         <Card>
-          <Accordion.Toggle as={Card.Header} eventKey="2">
-            Ph.D.
-          </Accordion.Toggle>
-          <Accordion.Collapse eventKey="2">
+       
             <Card.Body>
               <p>
                 <Button
@@ -80,8 +84,10 @@ const Syllabus = () => (
                 </Button>
               </p>
             </Card.Body>
-          </Accordion.Collapse>
+          
         </Card>
+        </Accordion.Body>
+       </Accordion.Item>
       </Accordion>
     </div>
     <hr></hr>

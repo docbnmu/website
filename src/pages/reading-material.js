@@ -476,7 +476,7 @@ const ReadingMaterial = () => (
            
           </Card>
           </Accordion.Body>
-  </Accordion.Item>
+      </Accordion.Item>
         </Accordion>
       </div>
       <hr></hr>
