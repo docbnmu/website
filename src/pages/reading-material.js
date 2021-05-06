@@ -468,7 +468,7 @@ const ReadingMaterial = () => (
                     variant="outline-dark"
                     href="../documents/reading-material/IV/Photochemistry-II.pdf"
                   >
-                    Photochemistry II<Badge bg="secondary">PDF</Badge>
+                    Photochemistry II <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
                 <hr></hr>

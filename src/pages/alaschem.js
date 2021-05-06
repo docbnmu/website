@@ -127,7 +127,7 @@ const ALASCHEM = () => (
           href="../documents/alaschem/Alumni.Association.of.Chemistry.Receipt.Voucher.pdf"
         >
           Alumni Association of Chemistry Receipt Voucher{" "}
-          <Badge variant="secondary">PDF</Badge>
+          <Badge bg="secondary">PDF</Badge>
         </Button>
       </h6>
       <hr></hr>
