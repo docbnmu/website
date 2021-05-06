@@ -19,7 +19,7 @@
     "node-sass": "latest",
     "prop-types": "latest",
     "react": "latest",
-    "react-bootstrap": "latest",
+    "react-bootstrap": "next",
     "react-dom": "latest",
     "react-helmet": "latest",
     "react-image-lightbox": "latest",
