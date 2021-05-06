@@ -8,14 +8,13 @@ const ReadingMaterial = () => (
   <React.Fragment>
     <Layout pageInfo={{ pageName: "Reading Material" }}>
       <SEO title="Reading Material" />
-      <h4>Misc.</h4>
+    
       <div>
-        <Accordion defaultActiveKey="7">
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="0">
-              Misc.
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="0">
+        <Accordion>
+        <Accordion.Item eventKey="0">
+          <Accordion.Header>Misc.</Accordion.Header>
+            <Accordion.Body>
+            <Card>
               <Card.Body>
                 <p>
                   <Button
@@ -76,20 +75,20 @@ const ReadingMaterial = () => (
                   </Button>
                 </p>
               </Card.Body>
-            </Accordion.Collapse>
-          </Card>
+              </Card>
+              </Accordion.Body>
+              </Accordion.Item>
         </Accordion>
       </div>
       <hr></hr>
       <br></br>
       <h4>Post Graduate</h4>
       <div>
-        <Accordion defaultActiveKey="9">
+        <Accordion>
+        <Accordion.Item eventKey="1">
+    <Accordion.Header>Semester I</Accordion.Header>
+    <Accordion.Body>
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="1">
-              Semester I
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="1">
               <Card.Body>
                 <p>
                   <Button
@@ -140,13 +139,15 @@ const ReadingMaterial = () => (
                 </p>
                 <hr></hr>
               </Card.Body>
-            </Accordion.Collapse>
+           
           </Card>
+          </Accordion.Body>
+  </Accordion.Item>
+  <Accordion.Item eventKey="2">
+    <Accordion.Header>Semester II</Accordion.Header>
+    <Accordion.Body>
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="2">
-              Semester II
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="2">
+      
             <Card.Body>
                 <p>
                   <Button
@@ -203,13 +204,15 @@ const ReadingMaterial = () => (
                 </p>
                 <hr></hr>
                 </Card.Body>
-            </Accordion.Collapse>
+            
           </Card>
+          </Accordion.Body>
+  </Accordion.Item>
+  <Accordion.Item eventKey="3">
+    <Accordion.Header>Semester III</Accordion.Header>
+    <Accordion.Body>
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="3">
-              Semester III
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="3">
+           
               <Card.Body>
                 <p>
                   <Button
@@ -248,13 +251,15 @@ const ReadingMaterial = () => (
                 </p>
                 <hr></hr>
               </Card.Body>
-            </Accordion.Collapse>
+           
           </Card>
+          </Accordion.Body>
+  </Accordion.Item>
+  <Accordion.Item eventKey="4">
+    <Accordion.Header>Semester IV</Accordion.Header>
+    <Accordion.Body>
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="4">
-              Semester IV
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="4">
+        
               <Card.Body>
                 <p>
                   <Button
@@ -370,20 +375,22 @@ const ReadingMaterial = () => (
                 </p>
                 <hr></hr>
               </Card.Body>
-            </Accordion.Collapse>
+           
           </Card>
+          </Accordion.Body>
+  </Accordion.Item>
         </Accordion>
       </div>
       <hr></hr>
       <br></br>
       <h4>Ph.D.</h4>
       <div>
-        <Accordion defaultActiveKey="8">
+        <Accordion>
+        <Accordion.Item eventKey="5">
+    <Accordion.Header>Ph.D. Coursework</Accordion.Header>
+    <Accordion.Body>
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="5">
-              Ph.D. coursework
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="5">
+           
               <Card.Body>
                 <p>
                   <Button
@@ -466,8 +473,10 @@ const ReadingMaterial = () => (
                 </p>
                 <hr></hr>
               </Card.Body>
-            </Accordion.Collapse>
+           
           </Card>
+          </Accordion.Body>
+  </Accordion.Item>
         </Accordion>
       </div>
       <hr></hr>
