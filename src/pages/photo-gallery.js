@@ -11,7 +11,7 @@ const PhotoGallery = () => (
       <h1>Photo Gallery</h1>
       <hr></hr>
       <br></br>
-      <a href="https://photos.app.goo.gl/JftTj3VzsgyPqJQUA">
+      <a align="center" href="https://photos.app.goo.gl/JftTj3VzsgyPqJQUA">
         <Button variant="outline-dark" size="lg" block>
           Open with &nbsp;
           <img

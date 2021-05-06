@@ -2,7 +2,7 @@ import React from "react"
 import { Button, Badge } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { LiteYouTubeEmbed } from "react-lite-youtube-embed"
+import LiteYouTubeEmbed from 'react-lite-youtube-embed'
 
 const ALASCHEM = () => (
   <React.Fragment>
@@ -127,7 +127,7 @@ const ALASCHEM = () => (
           href="../documents/alaschem/Alumni.Association.of.Chemistry.Receipt.Voucher.pdf"
         >
           Alumni Association of Chemistry Receipt Voucher{" "}
-          <Badge variant="secondary">PDF</Badge>
+          <Badge bg="secondary">PDF</Badge>
         </Button>
       </h6>
       <hr></hr>
