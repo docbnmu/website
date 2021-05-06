@@ -174,13 +174,31 @@ const ReadingMaterial = () => (
                     Nephelauxtic Effect <Badge variant="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>Charge transfer spectra of CCC.pdf
+                <hr></hr>
                 <p>
                   <Button
                     variant="outline-dark"
                     href="../documents/reading-material/II/Charge transfer spectra of CCC.pdf"
                   >
                     Charge transfer spectra of CCC <Badge variant="secondary">PDF</Badge>
+                  </Button>
+                </p>
+                <hr></hr>
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/II/Selection.Rule.pdf"
+                  >
+                    Selection Rule <Badge variant="secondary">PDF</Badge>
+                  </Button>
+                </p>
+                <hr></hr>
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/II/Microstate.and.Term.Symbol.pdf"
+                  >
+                    Microstate & Term symbol <Badge variant="secondary">PDF</Badge>
                   </Button>
                 </p>
                 <hr></hr>
