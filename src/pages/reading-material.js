@@ -33,7 +33,7 @@ const ReadingMaterial = () => (
                     Enviromental Ethics <Badge bg="secondary">PPTX</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -43,7 +43,7 @@ const ReadingMaterial = () => (
                     <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
 
                 <p>
                   <Button
@@ -54,7 +54,7 @@ const ReadingMaterial = () => (
                     <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -64,7 +64,7 @@ const ReadingMaterial = () => (
                     <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -80,7 +80,7 @@ const ReadingMaterial = () => (
               </Accordion.Item>
         </Accordion>
       </div>
-      <hr></hr>
+      
       <br></br>
       <h4>Post Graduate</h4>
       <div>
@@ -98,7 +98,7 @@ const ReadingMaterial = () => (
                     Vilsmeir reaction <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -108,7 +108,7 @@ const ReadingMaterial = () => (
                     <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -117,7 +117,7 @@ const ReadingMaterial = () => (
                     Diazonium Coupling <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -127,7 +127,7 @@ const ReadingMaterial = () => (
                     <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -137,7 +137,7 @@ const ReadingMaterial = () => (
                     <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
               </Card.Body>
            
           </Card>
@@ -157,7 +157,7 @@ const ReadingMaterial = () => (
                     Orgel Diagram <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -166,7 +166,7 @@ const ReadingMaterial = () => (
                     Racah Parameter <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -175,7 +175,7 @@ const ReadingMaterial = () => (
                     Nephelauxtic Effect <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -184,7 +184,7 @@ const ReadingMaterial = () => (
                     Charge transfer spectra of CCC <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -193,7 +193,7 @@ const ReadingMaterial = () => (
                     Selection Rule <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -202,7 +202,7 @@ const ReadingMaterial = () => (
                     Microstate & Term symbol <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 </Card.Body>
             
           </Card>
@@ -222,7 +222,7 @@ const ReadingMaterial = () => (
                     UV Spectroscopy <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -231,7 +231,7 @@ const ReadingMaterial = () => (
                     IR Spectroscopy <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -240,7 +240,7 @@ const ReadingMaterial = () => (
                     NMR Spectroscopy <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -249,7 +249,7 @@ const ReadingMaterial = () => (
                     Mass Spectroscopy <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
               </Card.Body>
            
           </Card>
@@ -269,7 +269,7 @@ const ReadingMaterial = () => (
                     Terpenoids <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -278,7 +278,7 @@ const ReadingMaterial = () => (
                     Terpenoids II <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -288,7 +288,7 @@ const ReadingMaterial = () => (
                     <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -297,7 +297,7 @@ const ReadingMaterial = () => (
                     Marcus Hush Theory <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -316,7 +316,7 @@ const ReadingMaterial = () => (
                     Metal Alkoxide <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -326,7 +326,7 @@ const ReadingMaterial = () => (
                     <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -336,7 +336,7 @@ const ReadingMaterial = () => (
                     complex <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -346,7 +346,7 @@ const ReadingMaterial = () => (
                     <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -355,7 +355,7 @@ const ReadingMaterial = () => (
                     Photochemistry <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -364,7 +364,7 @@ const ReadingMaterial = () => (
                     Photochemistry II<Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -373,7 +373,31 @@ const ReadingMaterial = () => (
                     Zinziberene <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/IV/Tanabe Sugano Diagram I.pdf"
+                  >
+                    Tanabe Sugano Diagram I <Badge bg="secondary">PDF</Badge>
+                  </Button>
+                </p>
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/IV/Tanabe Sugano Diagram II.pdf"
+                  >
+                    Tanabe Sugano Diagram II <Badge bg="secondary">PDF</Badge>
+                  </Button>
+                </p>
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/IV/Calculation of Tanabe Sugano.pdf"
+                  >
+                    Calculation of Tanabe Sugano<Badge bg="secondary">PDF</Badge>
+                  </Button>
+                </p>
+                
               </Card.Body>
            
           </Card>
@@ -381,7 +405,7 @@ const ReadingMaterial = () => (
   </Accordion.Item>
         </Accordion>
       </div>
-      <hr></hr>
+      
       <br></br>
       <h4>Ph.D.</h4>
       <div>
@@ -407,7 +431,7 @@ const ReadingMaterial = () => (
                     Research Hypothesis <Badge bg="secondary">PPTX</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -417,7 +441,7 @@ const ReadingMaterial = () => (
                     complex <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -426,7 +450,7 @@ const ReadingMaterial = () => (
                     UV Spectroscopy <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -435,7 +459,7 @@ const ReadingMaterial = () => (
                     IR Spectroscopy <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -444,7 +468,7 @@ const ReadingMaterial = () => (
                     NMR Spectroscopy <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -453,7 +477,7 @@ const ReadingMaterial = () => (
                     Mass Spectroscopy <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -462,7 +486,7 @@ const ReadingMaterial = () => (
                     Photochemistry <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
                 <p>
                   <Button
                     variant="outline-dark"
@@ -471,7 +495,7 @@ const ReadingMaterial = () => (
                     Photochemistry II <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr></hr>
+                
               </Card.Body>
            
           </Card>
@@ -479,7 +503,7 @@ const ReadingMaterial = () => (
       </Accordion.Item>
         </Accordion>
       </div>
-      <hr></hr>
+      
       <br></br>
       <Alert variant="dark">
         Download all files{" "}
