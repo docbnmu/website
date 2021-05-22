@@ -307,7 +307,7 @@ const ReadingMaterial = () => (
                     <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <hr />
+                
                 <p>
                   <Button
                     variant="outline-dark"
