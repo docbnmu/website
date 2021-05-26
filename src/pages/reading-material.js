@@ -137,6 +137,23 @@ const ReadingMaterial = () => (
                     <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
+                                
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/I/Microstate.and.Term.Symbol.pdf"
+                  >
+                    Microstate & Term symbol <Badge bg="secondary">PDF</Badge>
+                  </Button>
+                </p>
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/I/Orgel.Diagram.pdf"
+                  >
+                    Orgel Diagram <Badge bg="secondary">PDF</Badge>
+                  </Button>
+                </p>
                 
               </Card.Body>
            
@@ -149,15 +166,7 @@ const ReadingMaterial = () => (
           <Card>
       
             <Card.Body>
-                <p>
-                  <Button
-                    variant="outline-dark"
-                    href="../documents/reading-material/II/Orgel.Diagram.pdf"
-                  >
-                    Orgel Diagram <Badge bg="secondary">PDF</Badge>
-                  </Button>
-                </p>
-                
+
                 <p>
                   <Button
                     variant="outline-dark"
@@ -193,19 +202,11 @@ const ReadingMaterial = () => (
                     Selection Rule <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                
+
                 <p>
                   <Button
                     variant="outline-dark"
-                    href="../documents/reading-material/II/Microstate.and.Term.Symbol.pdf"
-                  >
-                    Microstate & Term symbol <Badge bg="secondary">PDF</Badge>
-                  </Button>
-                </p>
-                <p>
-                  <Button
-                    variant="outline-dark"
-                    href="../documents/reading-material/IV/Tanabe Sugano Diagram I.pdf"
+                    href="../documents/reading-material/II/Tanabe Sugano Diagram I.pdf"
                   >
                     Tanabe Sugano Diagram I <Badge bg="secondary">PDF</Badge>
                   </Button>
@@ -213,7 +214,7 @@ const ReadingMaterial = () => (
                 <p>
                   <Button
                     variant="outline-dark"
-                    href="../documents/reading-material/IV/Tanabe Sugano Diagram II.pdf"
+                    href="../documents/reading-material/II/Tanabe Sugano Diagram II.pdf"
                   >
                     Tanabe Sugano Diagram II <Badge bg="secondary">PDF</Badge>
                   </Button>
@@ -221,7 +222,7 @@ const ReadingMaterial = () => (
                 <p>
                   <Button
                     variant="outline-dark"
-                    href="../documents/reading-material/IV/Calculation of Tanabe Sugano.pdf"
+                    href="../documents/reading-material/II/Calculation of Tanabe Sugano.pdf"
                   >
                     Calculation of Tanabe Sugano<Badge bg="secondary">PDF</Badge>
                   </Button>
