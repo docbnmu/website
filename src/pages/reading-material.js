@@ -202,6 +202,30 @@ const ReadingMaterial = () => (
                     Microstate & Term symbol <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/IV/Tanabe Sugano Diagram I.pdf"
+                  >
+                    Tanabe Sugano Diagram I <Badge bg="secondary">PDF</Badge>
+                  </Button>
+                </p>
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/IV/Tanabe Sugano Diagram II.pdf"
+                  >
+                    Tanabe Sugano Diagram II <Badge bg="secondary">PDF</Badge>
+                  </Button>
+                </p>
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="../documents/reading-material/IV/Calculation of Tanabe Sugano.pdf"
+                  >
+                    Calculation of Tanabe Sugano<Badge bg="secondary">PDF</Badge>
+                  </Button>
+                </p>
                 
                 </Card.Body>
             
@@ -373,31 +397,7 @@ const ReadingMaterial = () => (
                     Zinziberene <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-                <p>
-                  <Button
-                    variant="outline-dark"
-                    href="../documents/reading-material/IV/Tanabe Sugano Diagram I.pdf"
-                  >
-                    Tanabe Sugano Diagram I <Badge bg="secondary">PDF</Badge>
-                  </Button>
-                </p>
-                <p>
-                  <Button
-                    variant="outline-dark"
-                    href="../documents/reading-material/IV/Tanabe Sugano Diagram II.pdf"
-                  >
-                    Tanabe Sugano Diagram II <Badge bg="secondary">PDF</Badge>
-                  </Button>
-                </p>
-                <p>
-                  <Button
-                    variant="outline-dark"
-                    href="../documents/reading-material/IV/Calculation of Tanabe Sugano.pdf"
-                  >
-                    Calculation of Tanabe Sugano<Badge bg="secondary">PDF</Badge>
-                  </Button>
-                </p>
-                
+
               </Card.Body>
            
           </Card>
