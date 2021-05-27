@@ -118,7 +118,8 @@ const ALASCHEM = () => (
       <h4>
         <strong>Downloads</strong>
       </h4>
-      <h6>
+      <h6>    <Container fluid>
+  <Row>
         <Button
           variant="outline-dark"
           size="lg"
@@ -128,6 +129,8 @@ const ALASCHEM = () => (
           Alumni Association of Chemistry Receipt Voucher{" "}
           <Badge bg="secondary">PDF</Badge>
         </Button>
+        </Row>
+</Container>
       </h6>
       <hr></hr>
       <br></br>

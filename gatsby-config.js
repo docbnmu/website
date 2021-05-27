@@ -3,13 +3,10 @@ require(`dotenv`).config({
 })
 
 module.exports = {
-  //pathPrefix: `/website/`,
-  //assetPrefix: `https://docbnmu.github.io/website/`,
   siteMetadata: {
     title: `University Department of Chemistry`,
     description: `University Department of Chemistry, B. N. Mandal University, Madhepura (Bihar).`,
     author: `docbnmu.in`,
-   //siteUrl: `https://docbnmu.github.io/website/`,
     siteUrl: `https://docbnmu.in/`,
     siteDescription: `Bhupendra Narayan Mandal University also called B. N. Mandal University and in short BNMU is situated at the district headquarter, Madhepura a district in Bihar. It is known for adding glory to the educational atmosphere of this district and it’s surrounding. It is a regional university famous for its quality teaching.`,
     siteLanguage: `en`,
@@ -33,10 +30,11 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     {
       resolve: 'gatsby-plugin-sharp',
       options: {
-        //useMozJpeg: true,
+        useMozJpeg: true,
         stripMetadata: true,
         defaultQuality: 80,
       },
@@ -48,11 +46,10 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-build-date`,
+      resolve: 'gatsby-plugin-buildtime-timezone',
       options: {
-        formatting: {
-          format: `dddd, MMM D, YYYY HH:mm:s Z`,
-        },
+        tz: 'Asia/Kolkata',
+        format: 'dddd, MMM D, YYYY HH:mm:s Z',
       },
     },
     {

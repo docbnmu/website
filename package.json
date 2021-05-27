@@ -7,8 +7,8 @@
   "dependencies": {
     "bootstrap": "latest",
     "gatsby": "latest",
-    "gatsby-image": "latest",
-    "gatsby-plugin-build-date": "latest",
+    "gatsby-plugin-image": "latest",
+    "gatsby-plugin-buildtime-timezone": "latest",
     "gatsby-plugin-manifest": "latest",
     "gatsby-plugin-react-helmet": "latest",
     "gatsby-plugin-sass": "latest",
@@ -22,12 +22,9 @@
     "react-bootstrap": "next",
     "react-dom": "latest",
     "react-helmet": "latest",
-    "react-image-lightbox": "latest",
-    "react-lite-youtube-embed": "latest"
+    "react-image-lightbox": "latest"
   },
   "devDependencies": {
-    "gatsby-plugin-offline": "latest",
-    "gh-pages": "3.1.0",
     "prettier": "2.2.1"
   },
   "keywords": [
@@ -52,7 +49,7 @@
     "url": "https://github.com/docbnmu/website"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/docbnmu/website"
   },
-  "homepage": ""
+  "homepage": "https://docbnmu.in/"
 }

@@ -9,7 +9,6 @@ const CustomNavbar = ({ pageInfo }) => {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" variant="dark" id="site-navbar">
-        {/* <Container> */}
         <div className="container">
           <Link to="/" className="link-no-style">
             <Navbar.Brand>
@@ -30,70 +29,69 @@ const CustomNavbar = ({ pageInfo }) => {
             <Nav className="mr-auto" activeKey={pageInfo && pageInfo.pageName}>
               <Link to="/about/">
                 <Nav.Link as="span" eventKey="about">
-                  <Button variant="secondary" active>
+                  <Button variant="outline-light">
                     About
                   </Button>
                 </Nav.Link>
               </Link>
               <Link to="/alaschem/">
                 <Nav.Link as="span" eventKey="ALASCHEM">
-                  <Button variant="secondary" active>
+                  <Button variant="outline-light">
                     Alumni
                   </Button>
                 </Nav.Link>
               </Link>
               <Link to="/faculty/">
                 <Nav.Link as="span" eventKey="Faculty">
-                  <Button variant="secondary" active>
+                  <Button variant="outline-light">
                     Faculty
                   </Button>
                 </Nav.Link>
               </Link>
               <Link to="/statistics/">
                 <Nav.Link as="span" eventKey="Statistics">
-                  <Button variant="secondary" active>
+                  <Button variant="outline-light">
                     Statistics
                   </Button>
                 </Nav.Link>
               </Link>
               <Link to="/syllabus/">
                 <Nav.Link as="span" eventKey="Syllabus">
-                  <Button variant="secondary" active>
+                  <Button variant="outline-light">
                     Syllabus
                   </Button>
                 </Nav.Link>
               </Link>
               <Link to="/NAAC/">
                 <Nav.Link as="span" eventKey="NAAC">
-                  <Button variant="secondary" active>
+                  <Button variant="outline-light">
                     NAAC
                   </Button>
                 </Nav.Link>
               </Link>
               <Link to="/reading-material/">
                 <Nav.Link as="span" eventKey="ReadingMaterial">
-                  <Button variant="secondary" active>
+                  <Button variant="outline-light">
                     Reading Material
                   </Button>
                 </Nav.Link>
               </Link>
               <Link to="/photo-gallery/">
                 <Nav.Link as="span" eventKey="PhotoGallery">
-                  <Button variant="secondary" active>
+                  <Button variant="outline-light">
                     Photo Gallery
                   </Button>
                 </Nav.Link>
               </Link>
               <Link to="/notice/">
                 <Nav.Link as="span" eventKey="Notice">
-                  <Button variant="secondary" active>
+                  <Button variant="outline-light">
                     Notice
                   </Button>
                 </Nav.Link>
               </Link>
             </Nav>
           </Navbar.Collapse>
-          {/* </Container> */}
         </div>
       </Navbar>
     </>

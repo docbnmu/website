@@ -4,13 +4,13 @@ import { graphql, useStaticQuery } from "gatsby"
 const Date = () => {
   const data = useStaticQuery(graphql`
     query {
-      currentBuildDate {
-        currentDate
-      }
+        site {
+          buildTimeZone
+        }
     }
   `)
 
-  return <p>Last updated: {data.currentBuildDate.currentDate}</p>
+  return <p>Last updated: {data.site.buildTimeZone}</p>
 }
 
 export default Date

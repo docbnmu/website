@@ -14,9 +14,6 @@ const Layout = ({ children, pageInfo, data }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
-        currentBuildDate {
-          currentDate
-        }
         site {
           siteMetadata {
             title
@@ -26,8 +23,8 @@ const Layout = ({ children, pageInfo, data }) => (
     `}
     render={(data) => (
       <>
-        <Container fluid className="px-0 main">
-          <Row noGutters className="justify-content-center">
+        <Container fluid className="px-0 py-0 main">
+          <Row noGutters className="justify-content-md-center">
             <Col>
               <Header siteTitle={data.site.siteMetadata.title} />
             </Col>
@@ -41,9 +38,9 @@ const Layout = ({ children, pageInfo, data }) => (
             </Col>
           </Row>
         </Container>
-        <Container fluid className="px-0">
+        <Container fluid className="px-0 py-0">
           <Row noGutters>
-            <Col className="footer-col justify-content-center">
+            <Col className="footer-col justify-content-md-center">
               <footer>
                 <span>
                   <section>
