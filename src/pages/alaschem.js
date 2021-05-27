@@ -1,23 +1,22 @@
 import React from "react"
-import { Button, Badge } from "react-bootstrap"
+import { Container, Row, Button, Badge } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import LiteYouTubeEmbed from 'react-lite-youtube-embed'
+
 
 const ALASCHEM = () => (
   <React.Fragment>
     <Layout pageInfo={{ pageName: "Alumni Association of Chemistry" }}>
       <SEO title="Alumni Association of Chemistry" />
-      <center>
-      <div>
-      <LiteYouTubeEmbed 
-        id="mLZf7dwBZOs"
-        title="Alumni Meet-2020, Department of Chemistry, B. N. Mandal University, Madhepura (Bihar)"
-        noCookie={true}
-
-    />
-      </div>
-      </center>
+      
+      <Container fluid>
+  <Row>
+  <iframe src="https://www.youtube-nocookie.com/embed/mLZf7dwBZOs" />
+  </Row>
+</Container>
+      
+      
+      
       <br />
       <hr />
       <h4>
