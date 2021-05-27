@@ -42,9 +42,7 @@ const IndexPage = () => (
           </Carousel.Item>
         </Carousel>
       </Container>
-      <hr></hr>
-      <br></br>
-      <br></br>
+      <br />
       <NoticeBoard />
     </Layout>
   </React.Fragment>
