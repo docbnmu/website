@@ -16,17 +16,17 @@ const Syllabus = () => (
             <Card.Body>
               <p>
                 <Button
-                  variant="outline-dark"
+                  variant="outline-dark" size="sm"
                   href="../documents/syllabus/Syllabus.for.PG.Semester.19-11-15.pdf"
                 >
-                  Syllabus for P.G. semester.{" "}
+                  Syllabus for P.G. semester{" "}
                   <Badge bg="secondary">PDF</Badge>
                 </Button>
               </p>
-              <hr></hr>
+              
               <p>
                 <Button
-                  variant="outline-dark"
+                  variant="outline-dark" size="sm"
                   href="../documents/syllabus/Final.Syllabus.CBCS.Revised.Chemistry.pdf"
                 >
                   CBCS-based syllabus for M.Sc. Chemistry{" "}
@@ -46,20 +46,20 @@ const Syllabus = () => (
             <Card.Body>
               <p>
                 <Button
-                  variant="outline-dark"
+                  variant="outline-dark" size="sm"
                   href="../documents/syllabus/Pre.Ph.D.Coursework.Syllabus.19-11-15.pdf"
                 >
-                  (2015) Pre Ph.D. coursework.{" "}
+                  (2015) Pre Ph.D. coursework{" "}
                   <Badge bg="secondary">PDF</Badge>
                 </Button>
               </p>
-              <hr></hr>
+              
               <p>
                 <Button
-                  variant="outline-dark"
+                  variant="outline-dark" size="sm"
                   href="../documents/syllabus/Pre.Ph.D.Coursework.Syllabus.Final.03.2020.pdf"
                 >
-                  (2020) Pre Ph.D. coursework.{" "}
+                  (2020) Pre Ph.D. coursework{" "}
                   <Badge bg="secondary">PDF</Badge>{" "}
                 </Button>
               </p>
@@ -76,7 +76,7 @@ const Syllabus = () => (
             <Card.Body>
               <p>
                 <Button
-                  variant="outline-dark"
+                  variant="outline-dark" size="sm"
                   href="../documents/syllabus/Ph.D.First.Paper.Syllabus.pdf"
                 >
                   Ph.D First Paper Syllabus.{" "}
@@ -90,9 +90,7 @@ const Syllabus = () => (
        </Accordion.Item>
       </Accordion>
     </div>
-    <hr></hr>
-    <br></br>
-    <br></br>
+
   </Layout>
 )
 
