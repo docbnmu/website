@@ -9,13 +9,13 @@ const CustomNavbar = ({ pageInfo }) => {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" variant="dark" id="site-navbar">
-       
-        <div className="container"
-      style={{
-        margin: `0 auto`,
-        maxWidth: 1280,
-      }}
-    >
+        <div
+          className="container"
+          style={{
+            margin: `0 auto`,
+            maxWidth: 1280,
+          }}
+        >
           <Link to="/" className="link-no-style">
             <Navbar.Brand>
               <img
@@ -35,72 +35,52 @@ const CustomNavbar = ({ pageInfo }) => {
             <Nav className="mr-auto" activeKey={pageInfo && pageInfo.pageName}>
               <Link to="/about/">
                 <Nav.Link as="span" eventKey="about">
-                  <Button variant="outline-light">
-                    About
-                  </Button>
+                  <Button variant="outline-light">About</Button>
                 </Nav.Link>
               </Link>
               <Link to="/alaschem/">
                 <Nav.Link as="span" eventKey="ALASCHEM">
-                  <Button variant="outline-light">
-                    Alumni
-                  </Button>
+                  <Button variant="outline-light">Alumni</Button>
                 </Nav.Link>
               </Link>
               <Link to="/faculty/">
                 <Nav.Link as="span" eventKey="Faculty">
-                  <Button variant="outline-light">
-                    Faculty
-                  </Button>
+                  <Button variant="outline-light">Faculty</Button>
                 </Nav.Link>
               </Link>
               <Link to="/statistics/">
                 <Nav.Link as="span" eventKey="Statistics">
-                  <Button variant="outline-light">
-                    Statistics
-                  </Button>
+                  <Button variant="outline-light">Statistics</Button>
                 </Nav.Link>
               </Link>
               <Link to="/syllabus/">
                 <Nav.Link as="span" eventKey="Syllabus">
-                  <Button variant="outline-light">
-                    Syllabus
-                  </Button>
+                  <Button variant="outline-light">Syllabus</Button>
                 </Nav.Link>
               </Link>
               <Link to="/NAAC/">
                 <Nav.Link as="span" eventKey="NAAC">
-                  <Button variant="outline-light">
-                    NAAC
-                  </Button>
+                  <Button variant="outline-light">NAAC</Button>
                 </Nav.Link>
               </Link>
               <Link to="/reading-material/">
                 <Nav.Link as="span" eventKey="ReadingMaterial">
-                  <Button variant="outline-light">
-                    Reading Material
-                  </Button>
+                  <Button variant="outline-light">Reading Material</Button>
                 </Nav.Link>
               </Link>
               <Link to="/photo-gallery/">
                 <Nav.Link as="span" eventKey="PhotoGallery">
-                  <Button variant="outline-light">
-                    Photo Gallery
-                  </Button>
+                  <Button variant="outline-light">Photo Gallery</Button>
                 </Nav.Link>
               </Link>
               <Link to="/my-birth-my-earth/">
                 <Nav.Link as="span" eventKey="MyBirthMyEarth">
-                  <Button variant="outline-light">
-                    My Birth - My Earth
-                  </Button>
+                  <Button variant="outline-light">My Birth - My Earth</Button>
                 </Nav.Link>
               </Link>
               <Link to="/notice/">
                 <Nav.Link as="span" eventKey="Notice">
-                  <Button variant="outline-light">
-                    Notice
-                  </Button>
+                  <Button variant="outline-light">Notice</Button>
                 </Nav.Link>
               </Link>
             </Nav>

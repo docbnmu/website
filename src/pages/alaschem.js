@@ -3,20 +3,17 @@ import { Container, Row, Button, Badge } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-
 const ALASCHEM = () => (
   <React.Fragment>
     <Layout pageInfo={{ pageName: "Alumni Association of Chemistry" }}>
       <SEO title="Alumni Association of Chemistry" />
-      
+
       <Container fluid>
-  <Row>
-  <iframe src="https://www.youtube-nocookie.com/embed/mLZf7dwBZOs" />
-  </Row>
-</Container>
-      
-      
-      
+        <Row>
+          <iframe src="https://www.youtube-nocookie.com/embed/mLZf7dwBZOs" />
+        </Row>
+      </Container>
+
       <br />
       <hr />
       <h4>
@@ -118,19 +115,21 @@ const ALASCHEM = () => (
       <h4>
         <strong>Downloads</strong>
       </h4>
-      <h6>    <Container fluid>
-  <Row>
-        <Button
-          variant="outline-dark"
-          size="lg"
-          block
-          href="../documents/alaschem/Alumni.Association.of.Chemistry.Receipt.Voucher.pdf"
-        >
-          Alumni Association of Chemistry Receipt Voucher{" "}
-          <Badge bg="secondary">PDF</Badge>
-        </Button>
-        </Row>
-</Container>
+      <h6>
+        {" "}
+        <Container fluid>
+          <Row>
+            <Button
+              variant="outline-dark"
+              size="lg"
+              block
+              href="../documents/alaschem/Alumni.Association.of.Chemistry.Receipt.Voucher.pdf"
+            >
+              Alumni Association of Chemistry Receipt Voucher{" "}
+              <Badge bg="secondary">PDF</Badge>
+            </Button>
+          </Row>
+        </Container>
       </h6>
       <hr></hr>
       <br></br>

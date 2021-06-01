@@ -5,7 +5,7 @@ import Date from "../components/date"
 const NoticeBoard = () => (
   <>
     <h1>Notice</h1>
-    
+
     <br></br>
     <div>
       <Alert variant="success">
@@ -26,7 +26,6 @@ const NoticeBoard = () => (
         </p>
       </Alert>
     </div>
-    
 
     <div>
       <Alert variant="info">
@@ -40,7 +39,6 @@ const NoticeBoard = () => (
         </p>
       </Alert>
     </div>
-    
 
     <div>
       <Alert variant="info">
@@ -56,7 +54,7 @@ const NoticeBoard = () => (
         </p>
       </Alert>
     </div>
-    
+
     <br />
     <Date />
   </>

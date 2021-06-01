@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 
-
 const IndexPage = () => (
   <React.Fragment>
     <Layout pageInfo={{ pageName: "Home" }}>

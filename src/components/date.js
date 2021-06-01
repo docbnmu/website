@@ -4,9 +4,9 @@ import { graphql, useStaticQuery } from "gatsby"
 const Date = () => {
   const data = useStaticQuery(graphql`
     query {
-        site {
-          buildTimeZone
-        }
+      site {
+        buildTimeZone
+      }
     }
   `)
 
