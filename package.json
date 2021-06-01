@@ -5,12 +5,14 @@
   "version": "0.1.0",
   "author": "",
   "dependencies": {
+    "@babel/preset-typescript": "^7.13.0",
+    "@browniebroke/gatsby-image-gallery": "latest",
     "bootstrap": "latest",
     "gatsby": "latest",
-    "gatsby-plugin-image": "latest",
     "gatsby-plugin-buildtime-timezone": "latest",
+    "gatsby-plugin-image": "latest",
     "gatsby-plugin-manifest": "latest",
-    "gatsby-plugin-react-helmet": "latest",
+    "gatsby-plugin-react-helmet": "^4.6.0",
     "gatsby-plugin-sass": "latest",
     "gatsby-plugin-sharp": "latest",
     "gatsby-plugin-sitemap": "latest",
@@ -21,11 +23,15 @@
     "react": "latest",
     "react-bootstrap": "next",
     "react-dom": "latest",
-    "react-helmet": "latest",
+    "react-helmet": "^6.1.0",
     "react-image-lightbox": "latest"
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "@types/react": "17.0.6",
+    "@types/react-dom": "17.0.5",
+    "@types/react-helmet": "6.1.1",
+    "@types/styled-components": "5.1.9",
+    "typescript": "4.2.4"
   },
   "keywords": [
     "gatsby"

@@ -18,27 +18,17 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/static/images`,
+        path: `${__dirname}/static/images/`,
       },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
       options: {
-        name: `documents`,
-        path: `${__dirname}/static/documents`,
+        name: `gallery`,
+        path: `${__dirname}/static/images/gallery/`,
       },
     },
     `gatsby-plugin-sass`,
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-image`,
-    {
-      resolve: 'gatsby-plugin-sharp',
-      options: {
-        useMozJpeg: true,
-        stripMetadata: true,
-        defaultQuality: 80,
-      },
-    },
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {

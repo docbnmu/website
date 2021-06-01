@@ -2,12 +2,7 @@ import React from "react"
 import Table from "react-bootstrap/Table"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import DrKK from "../../static/documents/faculty/DrKK.jpg"
-import DrAKY1 from "../../static/documents/faculty/DrAKY1.jpg"
-import DrAKY from "../../static/documents/faculty/DrAKY.jpg"
-import DrNK from "../../static/documents/faculty/DrNK.jpg"
-import DrMKG from "../../static/documents/faculty/DrMKG.jpg"
-import DrAK from "../../static/documents/faculty/DrAK.jpg"
+import { StaticImage } from "gatsby-plugin-image"
 const Faculty = () => (
   <Layout pageInfo={{ pageName: "Faculty" }}>
     <SEO title="Faculty" />
@@ -31,9 +26,10 @@ const Faculty = () => (
             <td>Dr. Kameshwar Kumar</td>
             <td>Head &amp; Associate Professor (Physical Chemistry)</td>
             <td>
-              <img
-                src={DrKK}
-                className="img-fluid rounded-lg"
+              <StaticImage
+                src="../../static/documents/faculty/DrKK.jpg"
+                placeholder="blurred"
+                formats={["auto", "webp", "avif"]}
                 alt="Dr. Kameshwar Kumar"
               />
             </td>
@@ -42,9 +38,10 @@ const Faculty = () => (
             <td>Dr. Ashok Kumar Yadav</td>
             <td>University Professor (Inorganic Chemistry)</td>
             <td>
-              <img
-                src={DrAKY1}
-                className="img-fluid rounded-lg"
+              <StaticImage
+                src="../../static/documents/faculty/DrAKY1.jpg"
+                placeholder="blurred"
+                formats={["auto", "webp", "avif"]}
                 alt="Dr. Ashok Kumar Yadav"
               />
             </td>
@@ -53,9 +50,10 @@ const Faculty = () => (
             <td>Dr. Arun Kumar Yadav</td>
             <td>University Professor (Organic Chemistry)</td>
             <td>
-              <img
-                src={DrAKY}
-                className="img-fluid rounded-lg"
+              <StaticImage
+                src="../../static/documents/faculty/DrAKY.jpg"
+                placeholder="blurred"
+                formats={["auto", "webp", "avif"]}
                 alt="Dr. Arun Kumar Yadav"
               />
             </td>
@@ -64,9 +62,10 @@ const Faculty = () => (
             <td>Dr. Naresh Kumar</td>
             <td>University Professor (Inorganic Chemistry)</td>
             <td>
-              <img
-                src={DrNK}
-                className="img-fluid rounded-lg"
+              <StaticImage
+                src="../../static/documents/faculty/DrNK.jpg"
+                placeholder="blurred"
+                formats={["auto", "webp", "avif"]}
                 alt="Dr. Naresh Kumar"
               />
             </td>
@@ -75,9 +74,10 @@ const Faculty = () => (
             <td>Dr. Mohit Kumar Ghosh</td>
             <td>Associate Professor (Inorganic Chemistry)</td>
             <td>
-              <img
-                src={DrMKG}
-                className="img-fluid rounded-lg"
+              <StaticImage
+                src="../../static/documents/faculty/DrMKG.jpg"
+                placeholder="blurred"
+                formats={["auto", "webp", "avif"]}
                 alt="Dr. Mohit Kumar Ghosh"
               />
             </td>
@@ -86,9 +86,10 @@ const Faculty = () => (
             <td>Dr. Anil Kumar</td>
             <td>Associate Professor (Organic Chemistry)</td>
             <td>
-              <img
-                src={DrAK}
-                className="img-fluid rounded-lg"
+              <StaticImage
+                src="../../static/documents/faculty/DrAK.jpg"
+                placeholder="blurred"
+                formats={["auto", "webp", "avif"]}
                 alt="Dr. Anil Kumar"
               />
             </td>

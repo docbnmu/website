@@ -9,14 +9,20 @@ const CustomNavbar = ({ pageInfo }) => {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" variant="dark" id="site-navbar">
-        <div className="container">
+       
+        <div className="container"
+      style={{
+        margin: `0 auto`,
+        maxWidth: 1280,
+      }}
+    >
           <Link to="/" className="link-no-style">
             <Navbar.Brand>
               <img
                 className="img-fluid lazy"
                 src={logo}
-                width="65"
-                height="65"
+                width="64"
+                height="64"
                 alt="Home"
               ></img>
             </Navbar.Brand>
@@ -80,6 +86,13 @@ const CustomNavbar = ({ pageInfo }) => {
                 <Nav.Link as="span" eventKey="PhotoGallery">
                   <Button variant="outline-light">
                     Photo Gallery
+                  </Button>
+                </Nav.Link>
+              </Link>
+              <Link to="/my-birth-my-earth/">
+                <Nav.Link as="span" eventKey="MyBirthMyEarth">
+                  <Button variant="outline-light">
+                    My Birth - My Earth
                   </Button>
                 </Nav.Link>
               </Link>
