@@ -1,22 +1,27 @@
 name: Gatsby Publish
 
-on:
-  push:
-    branches:
-      - master
+    on:
+      push:
+        branches:
+          - master
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: enriikke/gatsby-gh-pages-action@v2
-        with:
-          access-token: ${{ secrets.ACCESS_TOKEN }}
-          deploy-branch: gh-pages
-      - uses: actions/cache@v2.1.6
-        with:
-          path: |
-                node_modules
-                .cache
-          key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
+    jobs:
+      build:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v1
+          - uses: enriikke/gatsby-gh-pages-action@v2
+            with:
+              access-token: ${{ secrets.ACCESS_TOKEN }}
+              deploy-branch: gh-pages
+          - name: Get Date
+                id: get-date
+                run: |
+                  echo "::set-output name=date::$(/bin/date -u +%Y%m%d%m%s)"
+                shell: bash
+          - uses: actions/cache@v2.1.6
+            with:
+              path: |
+                    node_modules
+                    .cache
+              key: ${{ runner.os }}-${{ steps.get-date.outputs.date }}

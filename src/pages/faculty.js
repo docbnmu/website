@@ -29,7 +29,7 @@ const Faculty = () => (
               <StaticImage
                 src="../../static/documents/faculty/DrKK.jpg"
                 placeholder="blurred"
-                formats={["auto", "webp", "avif"]}
+                formats={["auto", "webp"]}
                 alt="Dr. Kameshwar Kumar"
               />
             </td>
@@ -41,7 +41,7 @@ const Faculty = () => (
               <StaticImage
                 src="../../static/documents/faculty/DrAKY1.jpg"
                 placeholder="blurred"
-                formats={["auto", "webp", "avif"]}
+                formats={["auto", "webp"]}
                 alt="Dr. Ashok Kumar Yadav"
               />
             </td>
@@ -53,7 +53,7 @@ const Faculty = () => (
               <StaticImage
                 src="../../static/documents/faculty/DrAKY.jpg"
                 placeholder="blurred"
-                formats={["auto", "webp", "avif"]}
+                formats={["auto", "webp"]}
                 alt="Dr. Arun Kumar Yadav"
               />
             </td>
@@ -64,8 +64,8 @@ const Faculty = () => (
             <td>
               <StaticImage
                 src="../../static/documents/faculty/DrNK.jpg"
-                placeholder="blurred"
-                formats={["auto", "webp", "avif"]}
+                placeholder="blurred"              
+                formats={["auto", "webp"]}
                 alt="Dr. Naresh Kumar"
               />
             </td>
@@ -77,7 +77,7 @@ const Faculty = () => (
               <StaticImage
                 src="../../static/documents/faculty/DrMKG.jpg"
                 placeholder="blurred"
-                formats={["auto", "webp", "avif"]}
+                formats={["auto", "webp"]}
                 alt="Dr. Mohit Kumar Ghosh"
               />
             </td>
@@ -88,8 +88,8 @@ const Faculty = () => (
             <td>
               <StaticImage
                 src="../../static/documents/faculty/DrAK.jpg"
-                placeholder="blurred"
-                formats={["auto", "webp", "avif"]}
+                placeholder="blurred"            
+                formats={["auto", "webp"]}
                 alt="Dr. Anil Kumar"
               />
             </td>

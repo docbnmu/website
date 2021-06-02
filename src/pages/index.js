@@ -13,7 +13,7 @@ const IndexPage = () => (
         <Carousel>
           <Carousel.Item>
             <StaticImage
-              formats={["auto", "webp", "avif"]}
+              formats={["auto", "webp"]}
               src="../../static/images/gallery/Chem.BNMU14@2x.jpg"
               alt="#"
               placeholder="traced_svg"
@@ -23,13 +23,13 @@ const IndexPage = () => (
             <StaticImage
               placeholder="traced_svg"
               src="../../static/images/gallery/Chem.BNMU55@2x.jpg"
-              formats={["auto", "webp", "avif"]}
+              formats={["auto", "webp"]}
               alt="#"
             />
           </Carousel.Item>
           <Carousel.Item>
             <StaticImage
-              formats={["auto", "webp", "avif"]}
+              formats={["auto", "webp"]}
               src="../../static/images/gallery/Chem.BNMU36@2x.jpg"
               alt="#"
               placeholder="traced_svg"

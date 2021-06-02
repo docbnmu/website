@@ -17,12 +17,12 @@ const PhotoGallery = (props) => {
                     width: 270
                     height: 270
                     placeholder: TRACED_SVG
-                    formats: [AUTO, AVIF, WEBP]
+                    formats: [AUTO, WEBP]
                   )
                   full: gatsbyImageData(
                     layout: CONSTRAINED
                     placeholder: TRACED_SVG
-                    formats: [AUTO, AVIF, WEBP]
+                    formats: [AUTO, WEBP]
                   )
                 }
               }
