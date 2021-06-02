@@ -1,12 +1,12 @@
 import React from "react"
-import { Accordion, Button, Card, Badge } from "react-bootstrap"
+import { Accordion, Button, Card, Badge, Container } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Syllabus = () => (
   <Layout pageInfo={{ pageName: "Syllabus" }}>
     <SEO title="Syllabus" />
-    <div>
+    <Container>
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>Post Graduate</Accordion.Header>
@@ -86,7 +86,7 @@ const Syllabus = () => (
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
-    </div>
+    </Container>
   </Layout>
 )
 
