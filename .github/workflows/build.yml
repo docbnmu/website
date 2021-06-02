@@ -1,25 +1,29 @@
 name: Gatsby Publish
 on:
-    push:
+  push:
     branches:
-          - master
+    - main
+    - master
+jobs:
 
-    jobs:
-      build:
+    build:
         runs-on: ubuntu-latest
         steps:
           - uses: actions/checkout@v1
+          - name: gatsby build
           - uses: enriikke/gatsby-gh-pages-action@v2
             with:
               access-token: ${{ secrets.ACCESS_TOKEN }}
               deploy-branch: gh-pages
+          - name: get time
+            id: get-time
+            run: |
+                echo "::set-output name=time::$(/bin/date -u +%Y%m%d%m%s)"
+            shell: bash
+          - name: cache
           - uses: actions/cache@v2.1.6
             with:
-                id: get-date
-                run: |
-                  echo "::set-output name=date::$(/bin/date -u +%Y%m%d%m%s)"
-                shell: bash
-                 path: |
+                path: |
                     node_modules
                     .cache
-                key: ${{ runner.os }}-${{ steps.get-date.outputs.date }}
+                key: ${{ runner.os }}-${{ steps.get-time.outputs.time }}
