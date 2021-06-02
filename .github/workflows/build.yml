@@ -1,8 +1,7 @@
 name: Gatsby Publish
-
-    on:
-      push:
-        branches:
+on:
+    push:
+    branches:
           - master
 
     jobs:
@@ -14,14 +13,13 @@ name: Gatsby Publish
             with:
               access-token: ${{ secrets.ACCESS_TOKEN }}
               deploy-branch: gh-pages
-          - name: Get Date
+          - uses: actions/cache@v2.1.6
+            with:
                 id: get-date
                 run: |
                   echo "::set-output name=date::$(/bin/date -u +%Y%m%d%m%s)"
                 shell: bash
-          - uses: actions/cache@v2.1.6
-            with:
-              path: |
+                 path: |
                     node_modules
                     .cache
-              key: ${{ runner.os }}-${{ steps.get-date.outputs.date }}
+                key: ${{ runner.os }}-${{ steps.get-date.outputs.date }}
