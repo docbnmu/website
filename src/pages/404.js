@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Date from "../components/date"
+
 const NotFoundPage = () => (
   <Layout pageInfo={{ pageName: "404" }}>
     <SEO title="404 Page Not Found" />

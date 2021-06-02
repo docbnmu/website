@@ -64,7 +64,7 @@ const Faculty = () => (
             <td>
               <StaticImage
                 src="../../static/documents/faculty/DrNK.jpg"
-                placeholder="blurred"              
+                placeholder="blurred"
                 formats={["auto", "webp"]}
                 alt="Dr. Naresh Kumar"
               />
@@ -88,7 +88,7 @@ const Faculty = () => (
             <td>
               <StaticImage
                 src="../../static/documents/faculty/DrAK.jpg"
-                placeholder="blurred"            
+                placeholder="blurred"
                 formats={["auto", "webp"]}
                 alt="Dr. Anil Kumar"
               />

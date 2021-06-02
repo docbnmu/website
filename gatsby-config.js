@@ -17,14 +17,19 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/static/images/`,
-      },
-      options: {
         name: `gallery`,
-        path: `${__dirname}/static/images/gallery/`,
+        path: `${__dirname}/static/images/gallery`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `documents`,
+        path: `${__dirname}/static/documents`,
+        ignore: [`**/\.*`], // ignore files starting with a dot
+      },
+    },
+  
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
