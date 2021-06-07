@@ -58,6 +58,16 @@ const SecondPage = () => (
           </Card.Body>
         </Card>
       </div>
+      <div>
+        <Card>
+          <Card.Body>
+            <Card.Text>
+             <a href="geo:25.963387,86.798453"><b>Location: </b> XQ7X+994 Majarhat, Madhepura - 852128, Bihar (India)
+             </a>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </div>
       <br />
 
       <br></br>

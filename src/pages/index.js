@@ -42,10 +42,10 @@ const IndexPage = () => (
 
     <Container fluid>
       <div class="w-auto vh-100">
-      <p> <b>Department @ Social Media</b></p>
+      <p> <b>Department @ Social</b></p>
       <iframe
         src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdocbnmu&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
-        title="Department @ Social Media"
+        title="Department @ Social"
         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
         loading="lazy"
         scrolling="yes"
