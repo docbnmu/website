@@ -54,9 +54,6 @@ const NoticeBoard = () => (
         </p>
       </Alert>
     </div>
-
-    <br />
-    <Date />
   </>
 )
 export default NoticeBoard

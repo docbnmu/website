@@ -9,9 +9,18 @@ const ALASCHEM = () => (
       <SEO title="Alumni Association of Chemistry" />
 
       <Container fluid>
-        <Row>
-          <iframe src="https://www.youtube-nocookie.com/embed/mLZf7dwBZOs" />
-        </Row>
+        <div class="video">
+          <iframe  
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowtransparency="true" 
+          frameBorder="0"
+          webkitallowfullscreen="true"
+          mozallowfullscreen="true"
+          allowFullScreen
+          width="100%" 
+          height="100%" 
+          src="https://www.youtube-nocookie.com/embed/mLZf7dwBZOs" />
+          </div>
       </Container>
 
       <br />
