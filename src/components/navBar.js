@@ -8,7 +8,7 @@ const CustomNavbar = ({ pageInfo }) => {
   console.log(pageInfo)
   return (
     <>
-        <Navbar collapseOnSelect expand="lg" id="site-navbar" className="navbar-dark bg-dark sticky-top collapsed">
+        <Navbar collapseOnSelect expand="lg" id="site-navbar" className="sticky-top collapsed">
         
         <div
           className="container"
