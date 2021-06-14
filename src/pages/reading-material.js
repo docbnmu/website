@@ -165,6 +165,15 @@ const ReadingMaterial = () => (
                       Orgel Diagram <Badge bg="secondary">PDF</Badge>
                     </Button>
                   </p>
+                  <p>
+                    <Button
+                      variant="outline-dark"
+                      size="sm"
+                      href="../documents/reading-material/I/BentsRule.pdf"
+                    >
+                      Bents Rule <Badge bg="secondary">PDF</Badge>
+                    </Button>
+                  </p>
                 </Card.Body>
               </Card>
             </Accordion.Body>
