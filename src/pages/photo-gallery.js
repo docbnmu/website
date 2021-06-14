@@ -36,8 +36,8 @@ const PhotoGallery = (props) => {
           // caption: node.childImageSharp.meta.originalName,
         }))
         return (
-          <Layout pageInfo={{ pageName: "Notice" }}>
-            <SEO title="Notice" />
+          <Layout pageInfo={{ pageName: "Photo Gallery" }}>
+            <SEO title="Photo Gallery" />
             <Gallery images={images} title="Photo Gallery" />
           </Layout>
         )

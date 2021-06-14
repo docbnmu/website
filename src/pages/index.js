@@ -38,7 +38,7 @@ const IndexPage = () => (
         </Carousel>
       </Container>
       <br />
-      <NoticeBoard />
+      
 
     <Container fluid>
       <div class="w-auto vh-100">
@@ -58,7 +58,7 @@ const IndexPage = () => (
       </Container>
 
       <br />
-    
+      <NoticeBoard />
     </Layout>
   </React.Fragment>
 )
