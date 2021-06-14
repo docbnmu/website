@@ -16,12 +16,12 @@ const IndexPage = () => (
               formats={["auto", "webp"]}
               src="../../static/images/gallery/Chem.BNMU14@2x.jpg"
               alt="#"
-              placeholder="traced_svg"
+              placeholder="dominantColor"
             />
           </Carousel.Item>
           <Carousel.Item>
             <StaticImage
-              placeholder="traced_svg"
+              placeholder="dominantColor"
               src="../../static/images/gallery/Chem.BNMU55@2x.jpg"
               formats={["auto", "webp"]}
               alt="#"
@@ -32,7 +32,7 @@ const IndexPage = () => (
               formats={["auto", "webp"]}
               src="../../static/images/gallery/Chem.BNMU36@2x.jpg"
               alt="#"
-              placeholder="traced_svg"
+              placeholder="dominantColor"
             />
           </Carousel.Item>
         </Carousel>

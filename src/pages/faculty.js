@@ -28,7 +28,7 @@ const Faculty = () => (
             <td>
               <StaticImage
                 src="../../static/documents/faculty/DrKK.jpg"
-                placeholder="blurred"
+                placeholder="dominantColor"
                 formats={["auto", "webp"]}
                 alt="Dr. Kameshwar Kumar"
               />
@@ -40,7 +40,7 @@ const Faculty = () => (
             <td>
               <StaticImage
                 src="../../static/documents/faculty/DrAKY1.jpg"
-                placeholder="blurred"
+                placeholder="dominantColor"
                 formats={["auto", "webp"]}
                 alt="Dr. Ashok Kumar Yadav"
               />
@@ -52,7 +52,7 @@ const Faculty = () => (
             <td>
               <StaticImage
                 src="../../static/documents/faculty/DrAKY.jpg"
-                placeholder="blurred"
+                placeholder="dominantColor"
                 formats={["auto", "webp"]}
                 alt="Dr. Arun Kumar Yadav"
               />
@@ -64,7 +64,7 @@ const Faculty = () => (
             <td>
               <StaticImage
                 src="../../static/documents/faculty/DrNK.jpg"
-                placeholder="blurred"
+                placeholder="dominantColor"
                 formats={["auto", "webp"]}
                 alt="Dr. Naresh Kumar"
               />
@@ -76,7 +76,7 @@ const Faculty = () => (
             <td>
               <StaticImage
                 src="../../static/documents/faculty/DrMKG.jpg"
-                placeholder="blurred"
+                placeholder="dominantColor"
                 formats={["auto", "webp"]}
                 alt="Dr. Mohit Kumar Ghosh"
               />
@@ -88,7 +88,7 @@ const Faculty = () => (
             <td>
               <StaticImage
                 src="../../static/documents/faculty/DrAK.jpg"
-                placeholder="blurred"
+                placeholder="dominantColor"
                 formats={["auto", "webp"]}
                 alt="Dr. Anil Kumar"
               />

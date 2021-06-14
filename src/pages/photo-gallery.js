@@ -14,14 +14,12 @@ const PhotoGallery = (props) => {
               node {
                 childImageSharp {
                   thumb: gatsbyImageData(
-                    width: 270
-                    height: 270
-                    placeholder: TRACED_SVG
+                    width: 196
+                    height: 196
                     formats: [AUTO, WEBP]
                   )
                   full: gatsbyImageData(
-                    layout: CONSTRAINED
-                    placeholder: TRACED_SVG
+                    layout: FULL_WIDTH
                     formats: [AUTO, WEBP]
                   )
                 }
