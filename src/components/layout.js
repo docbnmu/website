@@ -24,13 +24,13 @@ const Layout = ({ children, pageInfo, data }) => (
     render={(data) => (
       <>
         <Container fluid className="px-0 main">
-          <Row noGutters className="justify-content-md-center">
+          <Row  className="justify-content-md-center">
             <Col>
               <Header siteTitle={data.site.siteMetadata.title} />
             </Col>
           </Row>
           <Navbar pageInfo={pageInfo} />
-          <Row noGutters>
+          <Row >
             <Col>
               <Container className="mt-5">
                 <main>{children}</main>
@@ -39,7 +39,7 @@ const Layout = ({ children, pageInfo, data }) => (
           </Row>
         </Container>
         <Container fluid className="px-0">
-          <Row noGutters>
+          <Row >
             <Col className="footer-col justify-content-md-center">
               <footer>
                 <span>

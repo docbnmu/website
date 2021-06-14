@@ -8,7 +8,8 @@ const CustomNavbar = ({ pageInfo }) => {
   console.log(pageInfo)
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" variant="dark" id="site-navbar">
+            <Navbar collapseOnSelect expand="lg" className="navbar-dark bg-dark sticky-top bd-sidebar-toggle collapsed">
+        
         <div
           className="container"
           style={{
@@ -27,6 +28,7 @@ const CustomNavbar = ({ pageInfo }) => {
               ></img>
             </Navbar.Brand>
           </Link>
+          
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse
             className="justify-content-center"
