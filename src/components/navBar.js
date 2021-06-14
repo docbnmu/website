@@ -29,10 +29,11 @@ const CustomNavbar = ({ pageInfo }) => {
             </Navbar.Brand>
           </Link>
           
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle className="navbar-toggler" aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse
             className="justify-content-center"
             id="responsive-navbar-nav"
+            
           >
             <Nav className="mr-auto" activeKey={pageInfo && pageInfo.pageName}>
               <Link to="/about/">
