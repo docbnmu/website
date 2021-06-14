@@ -14,8 +14,7 @@ const ReadingMaterial = () => (
           <Accordion.Item eventKey="0">
             <Accordion.Header>Misc.</Accordion.Header>
             <Accordion.Body>
-              <Card>
-                <Card.Body>
+              
                   <p>
                     <Button
                       variant="outline-dark"
@@ -79,8 +78,7 @@ const ReadingMaterial = () => (
                       <Badge bg="secondary">PDF</Badge>
                     </Button>
                   </p>
-                </Card.Body>
-              </Card>
+               
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
@@ -93,8 +91,7 @@ const ReadingMaterial = () => (
           <Accordion.Item eventKey="1">
             <Accordion.Header>Semester I</Accordion.Header>
             <Accordion.Body>
-              <Card>
-                <Card.Body>
+              
                   <p>
                     <Button
                       variant="outline-dark"
@@ -174,15 +171,13 @@ const ReadingMaterial = () => (
                       Bents Rule <Badge bg="secondary">PDF</Badge>
                     </Button>
                   </p>
-                </Card.Body>
-              </Card>
+               
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
             <Accordion.Header>Semester II</Accordion.Header>
             <Accordion.Body>
-              <Card>
-                <Card.Body>
+              
                   <p>
                     <Button
                       variant="outline-dark"
@@ -252,15 +247,13 @@ const ReadingMaterial = () => (
                       <Badge bg="secondary">PDF</Badge>
                     </Button>
                   </p>
-                </Card.Body>
-              </Card>
+               
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
             <Accordion.Header>Semester III</Accordion.Header>
             <Accordion.Body>
-              <Card>
-                <Card.Body>
+              
                   <p>
                     <Button
                       variant="outline-dark"
@@ -300,15 +293,13 @@ const ReadingMaterial = () => (
                       Mass Spectroscopy <Badge bg="secondary">PDF</Badge>
                     </Button>
                   </p>
-                </Card.Body>
-              </Card>
+               
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="4">
             <Accordion.Header>Semester IV</Accordion.Header>
             <Accordion.Body>
-              <Card>
-                <Card.Body>
+              
                   <p>
                     <Button
                       variant="outline-dark"
@@ -432,8 +423,7 @@ const ReadingMaterial = () => (
                       Zinziberene <Badge bg="secondary">PDF</Badge>
                     </Button>
                   </p>
-                </Card.Body>
-              </Card>
+               
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
@@ -446,8 +436,7 @@ const ReadingMaterial = () => (
           <Accordion.Item eventKey="5">
             <Accordion.Header>Ph.D. Coursework</Accordion.Header>
             <Accordion.Body>
-              <Card>
-                <Card.Body>
+              
                   <p>
                     <Button
                       variant="outline-dark"
@@ -536,8 +525,7 @@ const ReadingMaterial = () => (
                       Photochemistry II <Badge bg="secondary">PDF</Badge>
                     </Button>
                   </p>
-                </Card.Body>
-              </Card>
+               
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
