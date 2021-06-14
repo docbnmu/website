@@ -11,8 +11,7 @@ const Syllabus = () => (
         <Accordion.Item eventKey="0">
           <Accordion.Header>Post Graduate</Accordion.Header>
           <Accordion.Body>
-            <Card>
-              <Card.Body>
+          
                 <p>
                   <Button
                     variant="outline-dark"
@@ -33,15 +32,13 @@ const Syllabus = () => (
                     <Badge bg="secondary">PDF</Badge>
                   </Button>
                 </p>
-              </Card.Body>
-            </Card>
+            
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>Pre Ph.D.</Accordion.Header>
           <Accordion.Body>
-            <Card>
-              <Card.Body>
+           
                 <p>
                   <Button
                     variant="outline-dark"
@@ -63,15 +60,13 @@ const Syllabus = () => (
                     <Badge bg="secondary">PDF</Badge>{" "}
                   </Button>
                 </p>
-              </Card.Body>
-            </Card>
+              
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
           <Accordion.Header>Ph.D.</Accordion.Header>
           <Accordion.Body>
-            <Card>
-              <Card.Body>
+            
                 <p>
                   <Button
                     variant="outline-dark"
@@ -81,8 +76,7 @@ const Syllabus = () => (
                     Ph.D First Paper Syllabus. <Badge bg="secondary">PDF</Badge>{" "}
                   </Button>
                 </p>
-              </Card.Body>
-            </Card>
+              
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

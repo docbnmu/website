@@ -36,10 +36,12 @@ const PhotoGallery = (props) => {
           // caption: node.childImageSharp.meta.originalName,
         }))
         return (
+          <React.Fragment>
           <Layout pageInfo={{ pageName: "Photo Gallery" }}>
             <SEO title="Photo Gallery" />
             <Gallery images={images} title="Photo Gallery" />
           </Layout>
+          </React.Fragment>
         )
       }}
     />
