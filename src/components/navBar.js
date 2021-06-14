@@ -29,7 +29,7 @@ const CustomNavbar = ({ pageInfo }) => {
             </Navbar.Brand>
           </Link>
           
-          <Navbar.Toggle className="navbar-toggler" aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle bsPrefix="navbar-toggler" aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse
             className="justify-content-center"
             id="responsive-navbar-nav"
